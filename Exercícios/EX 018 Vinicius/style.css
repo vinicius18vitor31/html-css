@@ -1,0 +1,21 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2? family= Ms+Madi & display=swap');
+
+@font-face {
+    font-family: "net";
+    src: url(fonte/Filxgirl.TTF) format(truetype);
+font-weight: normal;
+font-style: normal;
+}
+
+body{
+    background-image: linear-gradient(to right,#EB2F80, #D420C8,#C525F6);
+}
+
+h1{ 
+
+}
+p {
+    font-style: normal; font-weight: normal; font-size: 20px; font-family: 'net';
+    color: rgb(43, 255, 0);
+}
