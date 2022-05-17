@@ -1,0 +1,128 @@
+@charset "UTF8";
+
+body {
+    background-color: #2EC740;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+header#primeira {
+    background-image: linear-gradient(to bottom, #1C7A27, #196E24, #13691B, #115C17);
+    margin-top: -25px;
+    margin-right: -150px;
+    margin-left: -150px;
+    box-shadow: 0px 2px 1px 0px black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+p#primeira {
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white; 
+    margin: 15px;   
+}
+
+header#segunda {
+    background-color: white;
+    text-align: justify;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+}
+h2 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    margin: 3px;   
+}
+h2#cor {
+    background-image: linear-gradient(to right,#60FA70, #FAFBF3);
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+}
+
+p {
+    text-indent: 40px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 23px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+
+article {
+    text-align: center;
+}
+
+p#video {
+    text-align: center;
+    background-color: #115C17;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2#tres {
+    background-color: rgba(87, 156, 41, 0.774);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+header#terceira {
+    background-color: #7ffa60c2;
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+}
+
+span {
+    column-count: 2px;
+}
+
+p#terceira {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #13691B;
+    color: white;
+    text-align: center;
+}

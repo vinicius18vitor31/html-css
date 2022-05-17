@@ -1,0 +1,8 @@
+@charset "UTF8";
+body{background-color: #7A3E2A;}
+h1{
+    background-image: url(imagem/bares.jpg);max-width: 100pc;max-height: 50pc;
+}
+h2{
+    color: #FD9603; font-family: Arial, Helvetica, sans-serif; font-size: 80px; text-align: center;
+}
