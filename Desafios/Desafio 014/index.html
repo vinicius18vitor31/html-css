@@ -12,12 +12,24 @@
 
         table {
             border-collapse: collapse;
-            width: 300px;
+            width: 600px;
         }
 
         thead {
+            background-color: rgba(128, 128, 128, 0.856);
             border : 1px solid black;
             padding: 10px; 
+        }
+
+        th {
+            text-align: left;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        th#pro{
+            text-align: left;
+            background-color: rgba(128, 128, 128, 0.856);
         }
 
         td {
@@ -38,23 +50,57 @@
                 <th rowspan="2">Média</th>
             </tr>
             <tr>
-               <th>Notas 1</th>
-               <th>Notas 2</th>
+               <th rowspan="4">Notas 1</th>
+               <th rowspan="4">Notas 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <th rowspan="4">Exatas</th>
                 <td>Matematíca</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
                 <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
                 <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
                 <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th id="pro" colspan="4">Média Exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th id="pro"
+                colspan="4">Média de Humanas</th>
+                <td>0.0</td>
             </tr>
         </tbody>
     </table>
