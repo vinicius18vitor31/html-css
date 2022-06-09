@@ -1,63 +1,81 @@
 @charset "UTF8";
 
+@import url('https://fonts.googleapis.com/css2? family= Satisfy & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@700 & display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+:root {
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Satisfy', cursiva;
+    --fonte-segunda: 'Source Sans Pro', sem serifa;
+}
+
 body {
-    background-color: #c5ebd6;
+    background-color: rgba(255, 166, 0, 0.705);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.226);
+    background-color: rgba(0, 0, 0, 0.301);
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 header > h1 {
-    color: blue;
-    margin-bottom: 20px;
-    font-size: 4em;
+    color: rgba(251, 255, 0, 0.863);
+    font-family: var(--fonte-segunda);
+    margin-bottom: 15px;
+    font-size: 5em;
+    padding-top: 3px;
+    padding-bottom: 5px;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 header > p {
-    color: rgb(76, 0, 255);
-    font-size: 2em;
+    color: rgba(255, 255, 0, 0.829);
+    font-family: var(--fonte-destaque);
+    font-size: 2.5em;
     max-width: 500px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding-right: 10px;
+    padding-bottom: 5px;
     padding-left: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.322);
 }
 
 main {
     min-width: 300px;
-    max-width: 1200px;
+    max-width: 1310px;
     margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
+    margin-bottom: 0px;
+    padding: 40px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    background-color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
 main h1 {
+    font-family: var(--fonte-segunda);
     font-size: 1.3em;
     font-weight: normal;
+    margin-right: 50px;
+    margin-left: 30px;
     text-indent: 8px;
     text-align: justify;
-    padding: 20px;
+    padding-top: 0px;
     line-height: 1.5em;
 }
 
 main p {
+    font-family: var(--fonte-segunda);
     margin-top: 15px;
     margin-right: 0px;
     margin-bottom: 15px;
@@ -69,14 +87,15 @@ main p {
 }
 
 main img {
-    width: 100%;
+    width: 75%;
     display: block;
     margin: auto;
 }
 
 aside {
-    background-color: var(--cor1);
+    background-color: rgba(128, 128, 128, 0.308);
     padding: 10px;
+    padding-bottom: 30px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
