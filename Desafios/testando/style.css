@@ -1,8 +1,90 @@
 @charset "UTF8";
-body{background-color: #7A3E2A;}
-h1{
-    background-image: url(imagem/bares.jpg);max-width: 100pc;max-height: 50pc;
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
-h2{
-    color: #FD9603; font-family: Arial, Helvetica, sans-serif; font-size: 80px; text-align: center;
+
+body {
+    background-color: #c5ebd6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.226);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: blue;
+    margin-bottom: 20px;
+    font-size: 4em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > p {
+    color: rgb(76, 0, 255);
+    font-size: 2em;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.322);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main h1 {
+    font-size: 1.3em;
+    font-weight: normal;
+    text-indent: 8px;
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+main p {
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside > ol {
+    text-align: justify;
+    padding: 20px;
+    list-style-position: inside;
+    columns: 1;
+    line-height: 2em;
 }
