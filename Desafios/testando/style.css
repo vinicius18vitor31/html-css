@@ -1,6 +1,6 @@
 @charset "UTF8";
 
-@import url('https://fonts.googleapis.com/css2? family= Satisfy & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
 
 @import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@700 & display=swap');
 
@@ -11,7 +11,7 @@
 
 :root {
     --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-destaque: 'Satisfy', cursiva;
+    --fonte-destaque: 'Bebas Neue', "cursive";
     --fonte-segunda: 'Source Sans Pro', sem serifa;
 }
 
@@ -29,17 +29,17 @@ header {
 
 header > h1 {
     color: rgba(251, 255, 0, 0.863);
-    font-family: var(--fonte-segunda);
+    font-family: var(--fonte-destaque);
     margin-bottom: 15px;
     font-size: 5em;
     padding-top: 3px;
     padding-bottom: 5px;
     font-weight: normal;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.267);
 }
 
 header > p {
-    color: rgba(255, 255, 0, 0.829);
+    color: rgba(251, 255, 0, 0.829);
     font-family: var(--fonte-destaque);
     font-size: 2.5em;
     max-width: 500px;
@@ -64,7 +64,7 @@ main {
 
 main h1 {
     font-family: var(--fonte-segunda);
-    font-size: 1.3em;
+    font-size: 1.8em;
     font-weight: normal;
     margin-right: 50px;
     margin-left: 30px;
@@ -77,12 +77,12 @@ main h1 {
 main p {
     font-family: var(--fonte-segunda);
     margin-top: 15px;
-    margin-right: 0px;
+    margin-right: 20px;
     margin-bottom: 15px;
-    margin-left: 0px;
+    margin-left: 20px;
     text-align: justify;
     text-indent: 30px;
-    font-size: 1em;
+    font-size: 1.8em;
     line-height: 2em;
 }
 
@@ -92,6 +92,13 @@ main img {
     margin: auto;
 }
 
+main strong:hover {
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.603);
+    
+}
+
+
 aside {
     background-color: rgba(128, 128, 128, 0.308);
     padding: 10px;
@@ -100,10 +107,30 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
+aside > h2 {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: var(--fonte-padrao);
+}
+
 aside > ol {
+    font-size: 1.4em;
+    font-family: var(--fonte-padrao);
     text-align: justify;
     padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     list-style-position: inside;
     columns: 1;
     line-height: 2em;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.301);;
 }
