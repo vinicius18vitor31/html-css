@@ -36,10 +36,15 @@ caption > h1 {
     padding-bottom: 5px;
 }
 
-main > a {
+main > div {
     padding: 5px;
     margin-right: 40px;
     margin-left: 160px;
+}
+
+main > nav {
+    padding: 5px;
+    letter-spacing: 30px;
 }
 
 thead {
