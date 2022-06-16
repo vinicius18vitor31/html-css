@@ -22,7 +22,7 @@ header > h1 {
 
 table {
     border-collapse: collapse;
-    width: 430px;
+    width: 400px;
     margin: auto;
 }
 
@@ -48,7 +48,7 @@ main > nav {
 }
 
 thead {
-    width: 600px;
+    width: 500px;
 }
 
 th {
