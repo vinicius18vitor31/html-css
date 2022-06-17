@@ -17,7 +17,7 @@ header {
 }
 
 header > h1 {
-    padding: 50px;
+    padding: 35px;
     font-size: 8vw;
 }
 
@@ -26,7 +26,6 @@ table {
     min-width: 350px;
     max-width: 900px;
     margin: auto;
-    
 }
 
 caption {
@@ -39,12 +38,6 @@ caption > h1 {
     padding-bottom: 5px;
 }
 
-main > div {
-    padding: 5px;
-    margin-right: 40px;
-    margin-left: 160px;
-}
-
 main > nav {
     padding: 5px;
     letter-spacing: 30px;
@@ -55,7 +48,6 @@ thead {
 }
 
 th {
-    
     border : 1px solid black;
     padding: 10px;
     text-align: center;
@@ -84,9 +76,8 @@ td {
 }
 
 td.nada {
-    border : 0px solid white;
+    border : 0px solid black;
     padding: 10px; 
-    text-align: center;
 }
 
 td.dom {
@@ -107,22 +98,39 @@ td > a:hover {
 }
 
 article {
-    padding: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 25px;
-    font-size: 5vw;
+    background-color: pink;
+    padding: 0px;
+    margin-top: 30px;
+    font-size: 2vw;
 }
 
 article > p > a {
-    color: black;
     padding: 10px;
+    margin-left: 20px;
+    color: black;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 0.6em;
 }
 
 article > p > a:hover {
     background-color: black;
     color: red
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+footer > aside > p {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    padding: 0px;
+    
 }
