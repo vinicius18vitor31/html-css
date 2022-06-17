@@ -159,6 +159,16 @@ h3 {
     text-align: center;
 }
 
+aside > p.vazio {
+    background-color: white;
+    padding: 5px;
+} 
+
+aside > p.zero {
+    background-color: white;
+    padding: 8px;
+}
+
 
 footer {
     background-color: rgba(0, 0, 0, 0.301);
