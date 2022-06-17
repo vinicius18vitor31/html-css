@@ -47,12 +47,23 @@ main > {
     border-collapse: collapse;
     min-width: 300px;
     max-width: 1000px;
+    text-align: center;
 }
 
 main > a {
     padding: 10px;
     text-align: center;
     margin: auto;
+}
+
+nav {
+    border-collapse: collapse;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 table {
@@ -133,6 +144,18 @@ aside > p > a:hover {
     background-color: black;
     color: red;
 }
+
+h3 {
+    background-color: pink;
+    padding: 20px;
+    padding-bottom: 4px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-align: center;
+}
+
 
 footer {
     background-color: rgba(0, 0, 0, 0.301);
