@@ -26,43 +26,43 @@ header > h1 {
 }
 
 article {
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 25px;
-    margin-left: 50px;
+    margin-bottom: -20px;
 }
 
 div {
     color: black;
-    font-size: 0.8em;
-    margin-top: 0px;
-    margin-bottom: -25px;
+    text-align: center;
 }
 
 div > h1 {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
     margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.8em;
 }
 
 main > {
     border-collapse: collapse;
     min-width: 300px;
     max-width: 1000px;
-    margin-bottom: 30px;
-    padding: 20px;
 }
 
 main > a {
-    padding: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+table {
     text-align: center;
     margin: auto;
 }
 
 th {
     border : 1px solid black;
-    padding: 10px;
+    padding: 14px;
     text-align: center;
     font-weight: bold;
 }
@@ -83,7 +83,7 @@ th.sem {
 
 td {
     border : 1px solid black;
-    padding: 10px; 
+    padding: 14px; 
     text-align: center;
     font-weight: bold;
 }
@@ -99,10 +99,9 @@ td.dom {
 
 td > a {
     color: black;
-    padding: 10px;
+    padding: 2px;
     border-radius: 10px;
     text-decoration: none;
-    font-weight: bold;
 }
 
 td > a:hover {
@@ -112,29 +111,27 @@ td > a:hover {
 
 aside {
     background-color: pink;
-    padding: 10px;
-}
-
-aside > p {
-    color: black;
-    padding: 10px;
-    padding-bottom: 0px;
-    margin-top: -15px;
-    margin-right: 0px;
-    margin-bottom: -5px;
-    margin-left: 50px;
+    padding: 15px;
+    padding-bottom: 4px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-align: center;
 }
 
 aside > p > a {
+    color: blue;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    margin: auto;  
 }
 
 aside > p > a:hover {
     background-color: black;
-    color: red
+    color: red;
 }
 
 footer {
@@ -145,7 +142,7 @@ footer {
     padding: 5px;
 }
 
-footer > a {
+footer > p {
     color: black;
     font-weight: bolder;
     text-decoration: none;
