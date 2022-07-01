@@ -4,7 +4,30 @@ h1 {
     color: black;
     font-size: 40px;
 }
-p > ini {
+p {
     text-decoration: none;
     color: green;
+}
+a {
+    text-decoration: none;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+a.rio {
+    color: blueviolet;
+    font-size: 20px;
+}
+p.hoje {
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+p.aman {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
