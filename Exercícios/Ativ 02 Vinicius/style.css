@@ -54,4 +54,5 @@ a {
     padding: 5px;
     color: black;
     border-radius: 5px;
+    display: inline-block;
 }
