@@ -90,6 +90,10 @@ td.dom {
     background-color: rgba(255, 0, 0, 0.897);
 }
 
+.item {
+    display: grid;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 50px 50px 50px;
