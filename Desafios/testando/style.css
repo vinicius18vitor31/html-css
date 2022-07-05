@@ -127,6 +127,10 @@ aside > ol {
     line-height: 2em;
 }
 
+.grid {
+    grid-template-columns: 300px 300px;
+}
+
 footer {
     color: black;
     text-align: center;
