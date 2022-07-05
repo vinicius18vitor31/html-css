@@ -7,52 +7,24 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
-header {
-    background-color: rgba(255, 38, 0, 0.795);
-    color: white;
-    text-align: center;
-}
-
-header > h1 {
-    padding: 50px;
-    font-size: 8vw;
+div {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 20px;
+    padding: 40px 40px;
+    height: 400px;
 }
 
 table {
     border-collapse: collapse;
-    width: 430px;
-    margin: auto;
-}
-
-caption {
-    color: black;
-    font-size: 0.8em;
-}
-
-caption > h1 {
-    padding: 20px;
-    padding-bottom: 5px;
-}
-
-main > div {
-    padding: 5px;
-    margin-right: 40px;
-    margin-left: 160px;
-}
-
-main > nav {
-    padding: 5px;
-    letter-spacing: 30px;
-}
-
-thead {
-    width: 600px;
-}
+    justify-content: center;
+    
+} 
 
 th {
-    
     border : 1px solid black;
     padding: 10px;
     text-align: center;
@@ -81,20 +53,21 @@ td {
 }
 
 td.nada {
-    border : 0px solid white;
-    padding: 10px; 
-    text-align: center;
+    border : 0px solid black; 
 }
 
 td.dom {
     background-color: rgba(255, 0, 0, 0.897);
 }
 
-.item {
-    display: grid;
+td > a {
+    color: black;
+    padding: 2px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
+td > a:hover {
+    background-color: black;
+    color: red
 }
