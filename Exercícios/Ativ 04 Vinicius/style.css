@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.titulo {
+    grid-column: 2;
+    text-align: right;
+}
+
+.comprar {
+    align-self: start;
+}
+
+h1, p {
+    margin: 0px;
+}
+
+.foto {
+    grid-column: 2;
+}
+
+.descricao {
+    grid-column: 1/2;
+}
+
+.comprar {
+    background-color: #a8f;
+    color: #103;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+    grid-column: 1/2;
+}
+
+.preco {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+    place-self: start end;
+}
