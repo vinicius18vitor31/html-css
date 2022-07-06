@@ -1,34 +1,120 @@
 @charset "UTF-8";
 
-* {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(128, 128, 128, 0.253);
     margin: 0px;
     padding: 0px;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-   
+header {
+    background-color: rgba(255, 38, 0, 0.795);
+    min-height: 120px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header > h1 {
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    margin: auto;
+}
+
+span {
+    display: block;
+    grid-template-columns: 250px 250px 250px 250px;
+    font-size: 0.8em;
+    line-height: 0.2em;
+}
+
+h3 {
+    display: grid;
+}
+
+.mulher {
+    color: red;
+}
+
+.homem {
+    color: blue;
+}
+
+.janeiro {
+    margin-top: -45px;
+}
+
+.marco {
+  margin-top: -70px;  
+}
+
+.abril {
+    margin-top: -70px;
+}
+
+.maio {
+    margin-top: -70px;
+}
+
+.junho {
+    margin-top: -70px;
+}
+
+.julho {
+    margin-top: -40px;
+}
+
+.agosto {
+    margin-top: -70px;
+}
+
+.setembro {
+    margin-top: -70px;
+}
+
+.outubro {
+    margin-top: -40px;
+}
+
+.novembro {
+    margin-top: -70px;
+}
+
+.dezembro {
+    margin-top: -70px;
 }
 
 div {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    gap: 20px;
-    padding: 40px 40px;
-    height: 400px;
+    grid-template-columns: 250px 250px 250px 250px;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1000px;
 }
 
 table {
-    border-collapse: collapse;
-    justify-content: center;
-    
+    border-collapse: collapse; 
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
 } 
 
 th {
     border : 1px solid black;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-weight: bold;
+    margin: auto;
 }
 
 th.red {
@@ -47,9 +133,10 @@ th.sem {
 
 td {
     border : 1px solid black;
-    padding: 10px; 
+    padding: 5px; 
     text-align: center;
     font-weight: bold;
+    margin: auto;
 }
 
 td.nada {
@@ -62,12 +149,14 @@ td.dom {
 
 td > a {
     color: black;
-    padding: 2px;
-    border-radius: 10px;
+    padding: 1px;
+    border-radius: 5px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 td > a:hover {
     background-color: black;
-    color: red
+    color: red;
+    font-size: 1.5rem;
 }
