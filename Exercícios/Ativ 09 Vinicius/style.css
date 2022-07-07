@@ -39,7 +39,54 @@ img {
     display: block;
 }
 
-.primeira {
+p, h1, h2, h3 {
+    margin: 0rem;
+}
+
+.topo {
+    font-size: 2rem;
+}
+
+.parte {
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+
+article {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 65rem;
+}
+
+h5 {
+    position: relative;
+}
+
+h5::before {
+    display: block;
+    content:"";
+    width: 4rem;
+    height: 0.2rem;
+    background-color: red;
+    margin-left: -2rem;
+    position: absolute; 
+    top: 2rem; 
+}
+
+.primeira {
+    background: #ffffff;
+    padding: 2.5rem;
+    text-align: right;
+    position: relative;
+    display: grid;
+    align-content: center;
+    gap: 2rem;
+    justify-items: end;
+}
+
+.botao {
+    background: #ee2211;
+    color: #ffffff;
+    padding: 0.8rem 1.3rem;
+    border-radius: 0.3rem;
 }
