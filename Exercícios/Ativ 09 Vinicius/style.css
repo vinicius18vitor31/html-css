@@ -39,7 +39,7 @@ img {
     display: block;
 }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, h5 {
     margin: 0rem;
 }
 
@@ -89,4 +89,37 @@ h5::before {
     color: #ffffff;
     padding: 0.8rem 1.3rem;
     border-radius: 0.3rem;
+}
+
+.subtitulo {
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: right;
+    padding: 2rem;
+    align-self: center;
+}
+
+.segunda-parte {
+    background: #ffffff;
+    padding: 2rem;
+}
+
+.itens {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem 1rem;
+    padding: 1rem;
+}
+
+.itens p {
+    grid-column: 2;
+}
+
+footer > p {
+    background: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
 }
