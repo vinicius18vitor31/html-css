@@ -40,11 +40,10 @@ td#homem {
 
 div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, 230px);
     margin: auto;
-    max-width: 1200px;
-    min-width: 200px;
-    justify-items: center;
+    max-width: 1000px;
+    min-width: 250px;
 }
 
 table {
@@ -52,7 +51,7 @@ table {
     display: block;
     padding-top: 3px;
     padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 30px;
     justify-items: center;
 
 } 
@@ -66,7 +65,7 @@ table {
 
 th {
     border : 1px solid black;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-weight: bold;
     margin: auto;
@@ -88,7 +87,7 @@ th.sem {
 
 td {
     border : 1px solid black;
-    padding: 7px; 
+    padding: 5px; 
     text-align: center;
     font-weight: bold;
     margin: auto;
@@ -103,7 +102,7 @@ td.dom {
 }
 
 td > a {
-    border: royalblue;
+    color: limegreen;
     text-decoration: none;
 }
 
