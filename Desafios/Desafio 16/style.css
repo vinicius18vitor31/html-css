@@ -40,10 +40,10 @@ td#homem {
 
 div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-columns: repeat(auto-fit, 300px);
     padding: 10px;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
     min-width: 300px;
     justify-items: center;
 }
