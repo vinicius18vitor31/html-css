@@ -44,7 +44,7 @@ div {
     padding: 10px;
     margin: auto;
     max-width: 1000px;
-    min-width: 200px;
+    min-width: 400px;
     justify-items: center;
 }
 
@@ -52,7 +52,7 @@ table {
     border-collapse: collapse; 
     display: block;
     padding-top: 3px;
-    margin: 5px 25px;
+    margin: 5px 50px;
     justify-items: center;
 
 } 
