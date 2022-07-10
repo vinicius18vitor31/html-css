@@ -40,7 +40,7 @@ td#homem {
 
 div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, 270px);
     margin: auto;
     max-width: 1200px;
     min-width: 300px;
@@ -88,7 +88,7 @@ th.sem {
 
 td {
     border : 1px solid black;
-    padding: 10px; 
+    padding: 7px; 
     text-align: center;
     font-weight: bold;
     margin: auto;
@@ -104,15 +104,12 @@ td.dom {
 
 td > a {
     color: black;
-    border-radius: 3px;
     text-decoration: none;
     transition: 0.3s;
-    padding: 4px;
 }
 
 td > a:hover {
     color: blue;
-    font-size: 15px;
     border: 1px solid royalblue;
 }
 
