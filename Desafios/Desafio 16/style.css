@@ -41,10 +41,9 @@ td#homem {
 div {
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
-    padding: 10px;
     margin: auto;
     max-width: 1200px;
-    min-width: 300px;
+    min-width: 200px;
     justify-items: center;
 }
 
@@ -52,7 +51,8 @@ table {
     border-collapse: collapse; 
     display: block;
     padding-top: 3px;
-    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
     justify-items: center;
 
 } 
