@@ -12,11 +12,11 @@ header {
     min-height: 120px;
     text-align: center;
     padding-top: 20px;
+    margin: auto;
 }
 
 header > h1 {
     color: white;
-    margin: auto;
     margin-top: 20px;
     font-size: 3em;
     font-weight: bold;
@@ -30,88 +30,42 @@ h2 {
     margin: auto;
 }
 
-span {
-    display: block;
-    grid-template-columns: 250px 250px 250px 250px;
-    font-size: 0.8em;
-    line-height: 0.2em;
-}
-
-h3 {
-    display: grid;
-}
-
-.mulher {
+td#mulher {
     color: red;
 }
 
-.homem {
+td#homem {
     color: blue;
-}
-
-.janeiro {
-    margin-top: -45px;
-}
-
-.marco {
-  margin-top: -70px;  
-}
-
-.abril {
-    margin-top: -70px;
-}
-
-.maio {
-    margin-top: -70px;
-}
-
-.junho {
-    margin-top: -70px;
-}
-
-.julho {
-    margin-top: -40px;
-}
-
-.agosto {
-    margin-top: -70px;
-}
-
-.setembro {
-    margin-top: -70px;
-}
-
-.outubro {
-    margin-top: -40px;
-}
-
-.novembro {
-    margin-top: -70px;
-}
-
-.dezembro {
-    margin-top: -70px;
 }
 
 div {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    padding: 5px;
     margin: auto;
-    justify-content: center;
-    padding: 20px;
     max-width: 1000px;
+    min-width: 300px;
+   
 }
 
 table {
     border-collapse: collapse; 
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    display: block;
+    padding-top: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 } 
+
+.niveer {
+    border: none;
+    text-align: left;
+    padding: 1.5px;
+    font-size: 11px;
+}
 
 th {
     border : 1px solid black;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
     margin: auto;
@@ -160,3 +114,4 @@ td > a:hover {
     color: red;
     font-size: 1.5rem;
 }
+
