@@ -40,10 +40,10 @@ td#homem {
 
 div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 270px);
+    grid-template-columns: repeat(auto-fit, 300px);
     margin: auto;
     max-width: 1200px;
-    min-width: 300px;
+    min-width: 200px;
     justify-items: center;
 }
 
@@ -103,13 +103,8 @@ td.dom {
 }
 
 td > a {
-    color: black;
+    border: royalblue;
     text-decoration: none;
-    transition: 0.3s;
 }
 
-td > a:hover {
-    color: blue;
-    border: 1px solid royalblue;
-}
 
