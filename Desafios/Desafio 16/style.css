@@ -133,7 +133,7 @@ td > a {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 250px) {
     .completa {
         grid-template-columns: 1fr;
         gap: 20px; 
