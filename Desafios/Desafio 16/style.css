@@ -103,7 +103,7 @@ td > a {
 @media (max-width: 700px) {
     .completa {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
+        gap: 25px;
         justify-items: center;
     }
     th {
@@ -117,7 +117,7 @@ td > a {
 @media (max-width: 600px) {
     .completa {
         grid-template-columns: 1fr 1fr;
-        gap: 15px;
+        gap: 20px;
         justify-items: center;
     }
     th {
@@ -131,7 +131,7 @@ td > a {
 @media (max-width: 500px) {
     .completa {
         grid-template-columns: 1fr;
-        gap: 8px;
+        gap: 15px;
         justify-items: center;
     }
     th {
