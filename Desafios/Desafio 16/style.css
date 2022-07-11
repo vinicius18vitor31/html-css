@@ -108,7 +108,7 @@ td > a {
     }
     .completa {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
+        gap: 10px;
         padding-bottom: 20px;
         justify-items: center;
     }
