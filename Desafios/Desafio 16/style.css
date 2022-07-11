@@ -10,7 +10,6 @@ body {
 header {
     background-color: rgba(255, 38, 0, 0.795);
     min-height: 120px;
-    max-width: auto;
     text-align: center;
     padding-top: 20px;
     margin: auto;
@@ -43,7 +42,7 @@ td#homem {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
     gap: 30px;
 }
 
