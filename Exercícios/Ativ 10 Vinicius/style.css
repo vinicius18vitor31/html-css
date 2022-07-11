@@ -77,6 +77,11 @@ p {
     justify-items: end;
 }
 
+.introducao-cover img {
+    object-fit: cover;
+    height: 100%;
+}
+
 .introducao h1 {
     font-size: 2rem;
 }
@@ -143,4 +148,33 @@ p {
     text-align: center;
     padding: 40px;
     box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+    .conteudo-vantagens {
+        grid-template-columns: 1fr;
+    }
+    .subtitulo {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .header {
+        gap: 30px;
+    }
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
+    .introducao{
+        text-align: left;
+        justify-items: start;
+    }
+    .introducao::before {
+        display: none;
+    }
 }

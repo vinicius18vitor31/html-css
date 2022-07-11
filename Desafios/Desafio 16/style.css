@@ -38,22 +38,19 @@ td#homem {
     color: blue;
 }
 
-div {
+.completa {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 230px);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
     min-width: 250px;
+    gap: 30px;
 }
 
 table {
     border-collapse: collapse; 
     display: block;
-    padding-top: 3px;
-    padding-bottom: 10px;
-    padding-left: 30px;
     justify-items: center;
-
 } 
 
 .niveer {
@@ -65,10 +62,9 @@ table {
 
 th {
     border : 1px solid black;
-    padding: 5px;
+    padding: 8px;
     text-align: center;
     font-weight: bold;
-    margin: auto;
 }
 
 th.red {
@@ -87,10 +83,9 @@ th.sem {
 
 td {
     border : 1px solid black;
-    padding: 5px; 
+    padding: 8px; 
     text-align: center;
     font-weight: bold;
-    margin: auto;
 }
 
 td.nada {
@@ -106,4 +101,51 @@ td > a {
     text-decoration: none;
 }
 
+@media (max-width: 1000px) {
+    .completa {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    table {
+        justify-items: center;
+    }
+    th {
+        padding: 6px;
+    }
+    td {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 600px) {
+    .completa {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    table {
+        justify-items: center;
+    }
+    th {
+        padding: 4px;
+    }
+    td {
+        padding: 4px;
+    }
+}
+
+@media (max-width: 300px) {
+    .completa {
+        grid-template-columns: 1fr;
+        gap: 20px; 
+    }
+    table {
+        justify-items: center;
+    }
+    th {
+        padding: 2px;
+    }
+    td {
+        padding: 2px;
+    }
+}
 
