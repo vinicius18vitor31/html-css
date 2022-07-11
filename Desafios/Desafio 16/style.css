@@ -109,8 +109,8 @@ td > a {
     .completa {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
-        margin-right: 5px;
-        margin-left: 5px;
+        margin-right: 15px;
+        margin-left: 15px;
         padding-bottom: 20px;
         justify-items: center;
     }
