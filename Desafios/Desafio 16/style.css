@@ -104,19 +104,19 @@ td > a {
 
 @media (max-width: 900px) {
     header {
-        max-width: 100%;
+        width: 100%;
     }
     .completa {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
+        gap: 20px;
         padding-bottom: 20px;
         justify-items: center;
     }
     th {
-        padding: 6px;
+        padding: 5px;
     }
     td {
-        padding: 6px;
+        padding: 5px;
     }
 }
 
