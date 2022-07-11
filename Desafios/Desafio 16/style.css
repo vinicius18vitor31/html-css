@@ -44,7 +44,6 @@ td#homem {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
     max-width: 1200px;
-    min-width: 250px;
     gap: 30px;
 }
 
@@ -118,7 +117,7 @@ td > a {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .completa {
         grid-template-columns: 1fr 1fr;
         gap: 15px;
@@ -134,9 +133,10 @@ td > a {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 300px) {
     .completa {
         grid-template-columns: 1fr;
+        gap: 8px;
         justify-items: center;
     }
     header {
