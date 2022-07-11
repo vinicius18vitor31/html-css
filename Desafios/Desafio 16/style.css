@@ -101,9 +101,9 @@ td > a {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
     .completa {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, 250px 250px 250px) ;
         gap: 25px;
         padding-right: 20px;
         padding-bottom: 20px;
