@@ -105,8 +105,6 @@ td > a {
     .completa {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
-    }
-    table {
         justify-items: center;
     }
     th {
@@ -114,31 +112,27 @@ td > a {
     }
     td {
         padding: 6px;
+    }
+}
+
+@media (max-width: 600px) {
+    .completa {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        justify-items: center;
+    }
+    th {
+        padding: 4px;
+    }
+    td {
+        padding: 4px;
     }
 }
 
 @media (max-width: 500px) {
     .completa {
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-    }
-    table {
-        justify-items: center;
-    }
-    th {
-        padding: 4px;
-    }
-    td {
-        padding: 4px;
-    }
-}
-
-@media (max-width: 300px) {
-    .completa {
         grid-template-columns: 1fr;
         gap: 8px;
-    }
-    table {
         justify-items: center;
     }
     th {
