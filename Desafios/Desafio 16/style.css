@@ -43,7 +43,7 @@ td#homem {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1000px;
     gap: 30px;
 }
 
@@ -101,7 +101,7 @@ td > a {
     text-decoration: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
     .completa {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
@@ -117,7 +117,7 @@ td > a {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .completa {
         grid-template-columns: 1fr 1fr;
         gap: 15px;
@@ -137,10 +137,6 @@ td > a {
     .completa {
         grid-template-columns: 1fr;
         gap: 8px;
-        justify-items: center;
-    }
-    header {
-        width: auto;
     }
     table {
         justify-items: center;
