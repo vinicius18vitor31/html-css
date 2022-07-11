@@ -10,6 +10,7 @@ body {
 header {
     background-color: rgba(255, 38, 0, 0.795);
     min-height: 120px;
+    width: auto;
     text-align: center;
     padding-top: 20px;
     margin: auto;
@@ -101,7 +102,7 @@ td > a {
     text-decoration: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .completa {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
@@ -133,7 +134,7 @@ td > a {
     }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 200px) {
     .completa {
         grid-template-columns: 1fr;
         gap: 20px; 
