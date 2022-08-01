@@ -9,8 +9,18 @@ ul {
     list-style: none;
 }
 
-h1, p, ul {
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
     margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 img {
@@ -18,7 +28,7 @@ img {
     display: block;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+img[src$=".jpg"] {
+    border-radius: 4px;
 }
+
