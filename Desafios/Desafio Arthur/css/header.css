@@ -1,7 +1,7 @@
 
 .header-bg {
     background-color: #ffffff;
-    width: 1340px;
+    width: 1349px;
     height: 70px;
     top: 0px;
     left: 0px;
@@ -28,7 +28,6 @@
 .header-menu a {
     display: inline-block;
     padding: 16px 0px;
-    position: relative;
     color: #545454;
     font-family: "Open Sans" sans-serif;
     font-style: normal;
@@ -45,7 +44,6 @@
     background-color: cyan;
     margin-top: 5px;
     transition: 0.3s;
-    position: absolute;
 }
 
 .header-menu a:hover::after {
