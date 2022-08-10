@@ -1,5 +1,70 @@
 
-
-.primeiro-bg {
+.container-primeiro {
     background-color: #ffffff;
+    width: 710px;
+    height: 693px;
+    left: 140px;
+    top: 126px;
+    position: absolute
 }
+
+
+.primeira-introducao {
+    position: absolute;
+    color: #000000;
+    width: 332px;
+    height: 33px;
+    top: 20px;
+    left: 20px;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+
+span {
+    position: absolute;
+    color: #929292;
+    width: 217px;
+    height: 16px;
+    top: 60px;
+    left: 20px;
+    font-family: "Open Sans" sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.primeira-imagem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    left: 0px;
+    object-fit: cover;
+}
+
+.primeiro-paragrafo {
+    position: absolute;
+    color: #545454;
+    width: 670px;
+    height: 100px;
+    top: 450px;
+    left: 20px;
+    font-family:'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.introducao-todos a {
+    width: 106px;
+    height: 19px;
+    top: 120px;
+    left: 24px;
+}
+
