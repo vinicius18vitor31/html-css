@@ -87,7 +87,7 @@
     height: 1400px;
     top: 90px;
     right: 120px;
-    left: -60px;
+    left: -0px;
     padding: 20px;
     border-radius: 4px;
     background-color: #ffffff;
@@ -163,12 +163,12 @@ h5 {
     .container-principal {
         max-width: 650px;
         height: 650px;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: -30px;
     }
     .conteudo-completo {
         display: grid;
-        grid-template-columns: 900px auto;
+        grid-template-columns: 900px 700px;
     }
     .paragrafo-principal {
         width: 570px;
@@ -181,7 +181,7 @@ h5 {
     .segunda-parte {
         max-width: 250px;
         height: 1270px;
-        top: 80px; 
+        top: 90px; 
         margin-left: 10px; 
     }
     .caixa-publicidade {
