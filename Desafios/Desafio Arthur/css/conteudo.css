@@ -437,8 +437,9 @@ h5 {
         font-size: 10px;
     }
     .container-principal {
-        max-width: 210px;
+        max-width: 230px;
         height: 650px;
+        margin-right: 5px;
     }
     .paragrafo-principal {
         margin-left: -3px;
@@ -483,7 +484,7 @@ h5 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
     .introducao-principal {
         font-size: 12px;
         margin-left: -5px;
@@ -532,9 +533,6 @@ h5 {
         margin-top: -10px;
         margin-left: -20px;
         font-size: 13px;
-    }
-    .categoria h4::before {
-        display: none;
     }
     .categoria li {
         line-height: 1.5;
