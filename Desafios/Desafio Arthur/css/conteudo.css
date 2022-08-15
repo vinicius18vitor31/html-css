@@ -438,15 +438,16 @@ h5 {
     }
     .container-principal {
         max-width: 210px;
-        height: 700px;
+        height: 650px;
     }
     .paragrafo-principal {
-        width: 180px; 
+        margin-left: -3px;
+        width: 190px; 
         font-size: 12px; 
     }
     .botao {
-        left: 100px;
-        top: 430px; 
+        left: 120px;
+        top: 380px; 
     }
     .botao a {
         padding: 2px;
