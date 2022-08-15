@@ -356,7 +356,7 @@ h5 {
     }
     .botao {
         left: 180px;
-        top: 260px; 
+        top: 280px; 
     }
     .botao a {
         padding: 3px;
@@ -466,7 +466,7 @@ h5 {
     h3 {
         margin-left: 2px;
         padding: 2px 12px;
-        font-size: 10px;
+        font-size: 9px;
         border: 1px solid #929292;
     }
     .categoria h4 {
@@ -514,21 +514,20 @@ h5 {
         font-size: 10px;
     }
     .segunda-parte {
-        max-width: 95px;
+        max-width: 100px;
         height: 880px; 
         margin-right: 25px;
         
     }
     .caixa-publicidade {
-        width: 60px;
+        width: 70px;
         height: 100px;
         margin-top: -20px;
     }
     h3 {
-        width: 70px;
+        width: 80px;
         height: 10px;
-        margin-left: 0px;
-        border: 1px solid #929292;
+        margin-left: -2px;
         font-size: 7px;
     }
     .categoria h4 {
