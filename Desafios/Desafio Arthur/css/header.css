@@ -1,8 +1,7 @@
 
 .header-bg {
     background-color: #ffffff;
-    max-width: auto;
-    height: 70px;
+    min-height: 80px;
     margin: auto;
     margin-right: -8px;
     margin-left: -8px;
@@ -61,7 +60,6 @@
         gap: 25px;
         margin-right: -45px;
     }
-    
 }
 
 @media (max-width: 1000px) {
@@ -69,7 +67,6 @@
         gap: 15px;
         margin-right: -55px;
     }
-    
 }
 
 @media (max-width: 600px) {
@@ -80,7 +77,6 @@
         gap: 15px;
         margin-right: -55px;
     }
-    
 }
 
 @media (max-width: 600px) {
@@ -91,8 +87,7 @@
     .header-menu {
         gap: 5px;
         font-size: 15px;
-    }
-    
+    } 
 }
 
 @media (max-width: 450px) {
@@ -103,6 +98,33 @@
     .header-menu {
         gap: 0px;
         font-size: 13px;
+    } 
+}
+
+@media (max-width: 380px) {
+    .header-bg {
+        max-width: 900px;
+        height: 90px;
+        margin-top: -30px;
+        padding: 15px;
+    }
+    .header {
+        display: block;
+    }
+    .header-logo {
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    .header-menu {
+        display: flex;
+        margin-left: -80px;
+        
+    }
+}
+
+@media (max-width: 365px) {
+    .header-bg {
+      
     }
     
 }
