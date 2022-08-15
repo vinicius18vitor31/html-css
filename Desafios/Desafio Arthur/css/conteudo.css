@@ -447,7 +447,7 @@ h5 {
     }
     .botao {
         left: 120px;
-        top: 380px; 
+        top: 360px; 
     }
     .botao a {
         padding: 2px;
@@ -532,6 +532,9 @@ h5 {
         margin-top: -10px;
         margin-left: -20px;
         font-size: 13px;
+    }
+    .categoria h4::before {
+        display: none;
     }
     .categoria li {
         line-height: 1.5;
