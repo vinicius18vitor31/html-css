@@ -388,7 +388,7 @@ h5 {
     }
     .container-principal {
         max-width: 250px;
-        height: 600px;
+        height: 630px;
         margin-left: 10px;
     }
     .paragrafo-principal {
@@ -398,7 +398,7 @@ h5 {
     }
     .botao {
         left: 140px;
-        top: 290px; 
+        top: 330px; 
     }
     .botao a {
         padding: 3px;
@@ -438,7 +438,7 @@ h5 {
     }
     .container-principal {
         max-width: 210px;
-        height: 600px;
+        height: 650px;
     }
     .paragrafo-principal {
         width: 180px; 
@@ -446,7 +446,7 @@ h5 {
     }
     .botao {
         left: 100px;
-        top: 320px; 
+        top: 370px; 
     }
     .botao a {
         padding: 2px;
@@ -467,11 +467,13 @@ h5 {
     }
     .categoria h4 {
         margin-top: -10px;
-        margin-left: -30px;
+        margin-left: -20px;
         font-size: 13px;
     }
     .categoria h4::before {
-        display: none;
+        height: 25px;
+        top: 40px;
+        margin-left: 4px;
     }
     .categoria li {
         font-size: 11px;
