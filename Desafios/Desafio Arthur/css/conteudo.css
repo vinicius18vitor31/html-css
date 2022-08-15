@@ -438,7 +438,7 @@ h5 {
     }
     .container-principal {
         max-width: 210px;
-        height: 650px;
+        height: 700px;
     }
     .paragrafo-principal {
         width: 180px; 
@@ -446,7 +446,7 @@ h5 {
     }
     .botao {
         left: 100px;
-        top: 370px; 
+        top: 430px; 
     }
     .botao a {
         padding: 2px;
