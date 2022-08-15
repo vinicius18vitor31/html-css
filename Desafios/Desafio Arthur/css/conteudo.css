@@ -491,7 +491,7 @@ h5 {
     }
     .container-principal {
         max-width: 200px;
-        height: 670px;
+        height: 700px;
         margin-bottom: 40px;
         margin-right: 10px;
         margin-left: 8px;
@@ -500,12 +500,12 @@ h5 {
         width: 150px;  
     }
     .botao {
-        left: 70px;
-        top: 380px; 
+        left: 100px;
+        top: 420px; 
     }
     .botao a {
-        padding: 3px;
-        font-size: 12px;
+        padding: 2px;
+        font-size: 10px;
     }
     .segunda-parte {
         max-width: 95px;
@@ -523,7 +523,7 @@ h5 {
         height: 10px;
         margin-left: 0px;
         border: 1px solid #929292;
-        font-size: 9px;
+        font-size: 7px;
     }
     .categoria h4 {
         margin-top: -10px;
