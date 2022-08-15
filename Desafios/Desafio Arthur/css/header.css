@@ -90,18 +90,7 @@
     } 
 }
 
-@media (max-width: 450px) {
-    .header-logo {
-        margin-left: -50px;
-        font-size: 20px;
-    }
-    .header-menu {
-        gap: 0px;
-        font-size: 13px;
-    } 
-}
-
-@media (max-width: 400px) {
+@media (max-width: 470px) {
     .header {
         display: block;
     }
