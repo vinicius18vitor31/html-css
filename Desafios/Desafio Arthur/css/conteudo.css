@@ -479,63 +479,7 @@ h5 {
         margin-left: 2px;
     }
 }
-@media (max-width: 400px) {
-    .introducao-principal {
-        font-size: 8px;
-        margin-top: -10px;
-        margin-left: -20px;
-    }
-    .h2-principal {
-        font-size: 6px;
-        margin-left: -10px;
-    }
-    .container-principal {
-        max-width: 130px;
-        height: 800px;
-        padding: 10px;
-        margin-right: 0px;
-        margin-left: 5px;
-    }
-    .paragrafo-principal {
-        width: 108px; 
-        margin-left: -8px; 
-    }
-    .botao {
-        left: 60px;
-        top: 580px; 
-    }
-    .botao a {
-        padding: 1px;
-        font-size: 8px;
-    }
-    .segunda-parte {
-        max-width: 70px;
-        height: 760px; 
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-    h3 {
-        width: 50px;
-        height: 10px;
-        margin-left: -2px;
-        border: 1px solid #929292;
-        font-size: 7px;
-    }
-    .caixa-publicidade {
-        width: 40px;
-        height: 70px;
-    }
-    .categoria li {
-        font-size: 10px;
-        line-height: 1;
-        margin-top: 0px;
-    }
-    h5{
-        margin-top: 30px;
-        font-size: 6px;
-    }
-}
-/*
+
 @media (max-width: 400px) {
     .introducao-principal {
         font-size: 12px;
