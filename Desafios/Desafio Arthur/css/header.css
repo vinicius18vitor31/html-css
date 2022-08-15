@@ -1,7 +1,7 @@
 
 .header-bg {
     background-color: #ffffff;
-    min-height: 80px;
+    min-width: 150px;
     margin: auto;
     margin-right: -8px;
     margin-left: -8px;
@@ -102,29 +102,22 @@
 }
 
 @media (max-width: 380px) {
-    .header-bg {
-        max-width: 900px;
-        height: 90px;
-        margin-top: -30px;
-        padding: 15px;
-    }
     .header {
         display: block;
     }
     .header-logo {
-        margin-top: 25px;
+        padding: 20px;
         margin-bottom: 5px;
     }
     .header-menu {
         display: flex;
-        margin-left: -80px;
-        
+        margin-bottom: -50px;
+        margin-left: -80px;  
     }
 }
 
 @media (max-width: 365px) {
     .header-bg {
-      
+        min-width: 380px;
     }
-    
 }

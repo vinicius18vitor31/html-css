@@ -24,8 +24,9 @@
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 365px) {
     .roda-pe {
         font-size: 10px;
+        min-width: 340px;
     }
 }
