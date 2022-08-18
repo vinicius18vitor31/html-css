@@ -257,6 +257,38 @@ body {
   background: #FE0078;
 }
 
+.section {
+  margin: 24px;
+}
+
+.paragrafo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+.formulario-linha {
+  padding-bottom: 24px;
+  display: block;
+}
+
+input {
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  border-radius: 2px;
+  width: 334px;
+  height: 42px;
+}
+
+textarea {
+  max-width: 100%;
+  width: 732px;
+  height: 176px;
+}
 
 @media (min-width: 768px) {
   .header_content {
@@ -278,6 +310,11 @@ body {
     max-width: 280px;
     margin-left: 25px;
   }
+
+  label {
+    display: block;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -296,5 +333,19 @@ body {
   .main {
     max-width: 1160px;
     margin: 56px auto 0 auto;
+  }
+
+  .section {
+      max-width: 1160px;
+      margin: 56px auto 0 auto;
+  }
+
+  .container-linha {
+    display: flex;
+    justify-content: left; 
+  }
+
+  input {
+    margin-right: 24px;
   }
 }
