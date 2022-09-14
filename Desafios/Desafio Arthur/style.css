@@ -287,7 +287,7 @@ label {
 
 input {
   background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  border: 2px solid #EEEEEE;
   border-radius: 2px;
   width: 334px;
   height: 42px;
@@ -302,7 +302,7 @@ textarea {
   width: 732px;
   height: 176px;
   background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  border: 2px solid #EEEEEE;
   border-radius: 2px;
 }
 
@@ -370,7 +370,7 @@ button {
   max-width: 100%;
   height: 42px;
   background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  border: 2px solid #EEEEEE;
   border-radius: 2px;
   margin-top: 8px;
   margin-bottom: 25px;
@@ -382,7 +382,7 @@ button {
 
 .input-assunto {
   background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  border: 2px solid #EEEEEE;
   border-radius: 2px;
   margin-top: 8px;
   margin-bottom: 25px;
