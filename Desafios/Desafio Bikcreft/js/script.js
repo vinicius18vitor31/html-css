@@ -10,7 +10,7 @@ function ativarLink(link) {
     }
 }
 
-links.forEach(ativarLink);
+links.forEach(ativarLink); 
 
 // ativar itens do orçamento
 const parametros = new URLSearchParams(location.search);
@@ -34,11 +34,37 @@ function ativarPergunta(event) {
     const resposta = document.getElementById(controls);
 
     resposta.classList.toggle("ativa");
-    console.log(resposta);
+    const ativa = resposta.classList.contains("ativa");
+    pergunta.setAttribute("aria-expanded", "true");
 }
 
 function eventosPerguntas(pergunta) {
-    pergunta.addEventListener("clique", ativarPergunta);
+    pergunta.addEventListener("click", ativarPergunta);
 }
 
 perguntas.forEach(eventosPerguntas);
+
+
+// galeria de bicicletas
+const galeria = document.querySelectorAll(".bicicleta-imagens img");
+const galeriaContainer = document.querySelector(".bicicleta-imagens");
+
+function trocarImagem(event) {
+    const img = event.currentTarget;
+    const midia = matchMedia("(min-width: 1000px)").matches;
+    if (midia) {
+        galeriaContainer.prepend(img);
+    }
+    
+}
+
+function eventosGaleria(img) {
+    img.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
+
+//animação
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}
