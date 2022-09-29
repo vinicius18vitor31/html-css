@@ -122,10 +122,10 @@ body {
 }
 
 @media (max-width: 739px) {
-	.sobre-item {
-		margin-left: 0px;
-		margin-right: 0px;
-	}
+.sobre-item {
+	margin-left: 0px;
+	margin-right: 0px;
+   }
 }
 
 .sobre-item img {

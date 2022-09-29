@@ -17,20 +17,11 @@ body {
     font-family: "Eudoxus-Sans";
 }
 
-img {
-    display: block;
-    max-width: 100%;
-}
-
 * {
     box-sizing: border-box;
 }
 
 /* Header */
-
-.header-bg {
-    background: #E4E6F1;
-}
 
 .header-container {
     max-width: 960px;
@@ -47,8 +38,6 @@ img {
 .header-imagem {
     Width: 112px;
     Height: 28px;
-    Top: 42px;
-    Left: 120px;
 }
 
 .header-menu {
@@ -94,4 +83,128 @@ img {
 .menu-clicar > a:hover {
     background-color: #181945;
 }
+
+/* 1ª Sessão */
+
+.article-bg {
+    background: #DBEFFA;
+    max-width: 1060px;
+    margin: 0px auto;
+    border-radius: 48px;
+    top: 115px;
+}
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-info {
+    margin-top: 145px;
+    margin-left: 70px;
+    width: 530px;
+}
+
+.article-img {
+    display: block;
+    max-width: 100%;
+}
+
+.article-info h1 {
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 81px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.04em;
+    color: #181945;
+    margin-bottom: 32px;
+}
+
+.article-info p {
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    color: #181945;
+    opacity: 0.7;
+    margin-bottom: 90px;
+}
+
+.article-detalhes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-detalhes > a {
+    color: #ffffff;
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #583FBC;
+    border-radius: 12px;
+    padding: 15px 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.detalhe-info {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.detalhe-info span img {
+    position: absolute;
+    margin: 0px auto;
+    margin-left: 62px;
+    margin-top: 16px;
+}
+
+.article-detalhes span::after {
+    content: '';
+	display: block;
+	width: 48px;
+	height: 48px;
+	background: #ffffff;
+	margin: 0px auto;
+    margin-top: 3px;
+    margin-left: 48px;
+    border-radius: 16px;
+}
+
+.detalhe-local > p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #583FBC;
+    margin: 0px auto;
+    padding: 3px 20px;
+    text-align: center;
+}
+
+.detalhe-local a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #181945;
+    padding: 3px 20px;
+    text-align: center;
+}
+
+
+
+
+
 
