@@ -21,7 +21,7 @@ body {
 
 .container {
     flex-direction: column;
-    max-width: 300px;
+    max-width: 320px;
 }
 
 @media (min-width: 768px) {
@@ -96,5 +96,49 @@ body {
   }
 
   .header-botao > a:hover {
+    background-color: #181945;
+}
+
+/* Introdução */
+
+.article-introducao {
+    background: #DBEFFA;
+    max-width: 320px;
+    margin: 20px auto;
+}
+
+.article-introducao > h1 {
+    font-weight: 700;
+    font-size: 22px;
+    padding: 20px 0px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #181945;
+}
+
+.article-introducao > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #181945;
+    opacity: 0.7;
+    padding: 0px 20px 20px 20px;
+}
+
+.article-botao {
+    text-align: left;
+    padding: 20px 10px;
+  }
+
+  .article-botao  a {
+    color: #ffffff;
+    font-size: 14px;
+    background: #583FBC;
+    border-radius: 12px;
+    padding: 10px 10px;
+  }
+
+  .article-botao > a:hover {
     background-color: #181945;
 }
