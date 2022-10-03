@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 body {
-    background:  #e4e6f1;
+    background:  #ffffff;
     font-family: "Eudoxus-Sans";
 }
 * {
@@ -201,22 +201,43 @@ body {
     color: #181945;
 }
 
-.article-nome {
+
+.article-lado {
+    display: flex;
+}
+
+.article-doutora > img {
+    max-width: 100%;
+    display: block;
+}
+
+.article-lado-bg {
+    background: #FFFFFF;
+    border-radius: 24px;
+    border: 8px solid #FFFFFF;
     text-align: center;
-    margin: 0px auto;
-    padding: 10px;
+    display: flex; 
+    align-self: flex-end;
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
 }
 
 .article-nome > h3 {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 22px;
     letter-spacing: -0.02em;
     color: #181945;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 15px;
 }
 
-.detalhe-lado-info > p {
+.article-nome > p {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -224,21 +245,12 @@ body {
     letter-spacing: -0.02em;
     color: #181945;
     opacity: 0.6;
+    
 }
 
-.detalhe-lado-info {
-    position: relative;
+.circulo {
     display: flex;
     align-items: center;
-    padding: 15px;
-}
-
-.circulo   {
-    margin: 0px auto;
-    height: 50px;
-    position: relative;
-    display: flex;
-    margin-left: 30px;
 }
 
 .circulo::after {
@@ -249,10 +261,161 @@ body {
 	background: #1FC073;
     border: 2px solid #FFFFFF;
     border-radius: 50%;
-	margin: 10px auto;
+	margin: 5px auto;
     position: relative;
     margin-left: -14px;
-    margin-top: 35px;
+    margin-top: 48px;
+    
+}
+
+/* Segunda Parte*/
+
+.section-primeira > h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #583FBC;
+    margin-left: 15px;
+    padding: 10px 0px;
+}
+
+.section-primeira > h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: #181945;
+    padding: 5px 10px;
+}
+
+.section-segunda > h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    color: #181945;
+    opacity: 0.6;
+    padding: 5px 10px;
+}
+
+.section-detalhe > h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: start;
+    letter-spacing: -0.03em;
+    color: #181945;
+    padding: 5px 10px;
+}
+
+.section-detalhe::after {
+	content: '';
+	display: block;
+	Width: 120px;
+    Height: 4px;
+	background: #583FBC;
+	margin: 10px auto;
+}
+
+/* Serviços */
+
+.article-geral {
+    padding: 40px 0px;
+}
+
+.servicos-item {
+    margin: 0px 10px 40px 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.servicos-item > h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #181945;
+}
+
+.servicos-item > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #181945;
+    opacity: 0.5;
+}
+
+.servicos-item > img {
+    border: 80px solid;
+    border-radius: 32px;
+	margin: 20px auto;
+}
+
+.servicos-denture {
+    color: #DBEFFA;
+}
+
+.servicos-implantes {
+    color: #DBDEFA;
+}
+
+.servicos-whitening {
+    color: #F6DBFA;
+}
+
+.servicos-root {
+    color: #FADBE2;
+}
+
+.span-detalhe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.span-detalhe > p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #583FBC;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    border: 10px solid #DBDEFA;
+    margin: 0px auto;
+    background: #DBDEFA;
+    padding-right: 50px;
+}
+
+.span-detalhe > img {
+    margin: 0px auto;
+    border: 10px solid #583FBC;
+    background: #583FBC;
+    border-radius: 50%;
+    margin-left: -150px;
+    
+} 
+
+/* Paciente */
+
+.paciente-img > img {
+    max-width: 100%;
 }
 
 
