@@ -470,13 +470,12 @@ button {
 
   .container-linha {
     display: flex;
-    justify-content: space-between; 
+    flex-wrap: wrap;
   }
 
   input {
     margin-right: 24px;
     width: 354px;
   }
-
   
 }
