@@ -929,18 +929,25 @@ body {
     border-radius: 16px;
 }
 
+.form button {
+    padding: 10px;
+    text-align: center;
+    background: red;
+}
+
 .form-detalhe {
     display: flex;
     padding: 10px 20px;
-    
+    align-items: center;
 }
 
 .form-detalhe span img {
     margin: 0px auto;
-    padding: 5px 5px;
+    padding: 5px 10px;
     background: #583FBC;
     color: #FFFFFF;
     border-radius: 8px;
+    margin-left: 10px;
 }
 
 .form-contato h2 {
@@ -951,9 +958,35 @@ body {
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: #583FBC;
-    padding: 5px 10px;
+    padding: 2px 20px;
 }
 
+.form-contato a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #181945;
+    padding: 0px 20px;
+}
+
+.form-botao {
+    text-align: right;
+    padding: 20px 20px;
+}
+
+.form-botao  a {
+    color: #ffffff;
+    font-size: 14px;
+    background: #583FBC;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+
+.form-botao > a:hover {
+    background-color: #181945;
+}
 
 
 
