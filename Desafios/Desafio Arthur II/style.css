@@ -644,8 +644,7 @@ body {
 
 .clinica-img > img {
     max-width: 100%;
-    padding: 0px 10px;
-    margin-top: 15px;
+    padding: 15px 10px 0px 10px;
     margin: 0px auto;
 }
 
