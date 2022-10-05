@@ -929,10 +929,11 @@ body {
     border-radius: 16px;
 }
 
-.form button {
-    padding: 10px;
-    text-align: center;
-    background: red;
+.form-button {
+    padding: 10px 20px;
+    margin-top: -10px;
+    margin-right: 10px;
+    text-align: end;
 }
 
 .form-detalhe {
