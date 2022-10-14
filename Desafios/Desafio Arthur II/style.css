@@ -19,34 +19,7 @@ body {
     box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
-    .main {
-        max-width: 768px;
-        margin: 0px auto; 
-    }
-    .header {
-        max-width: 768px;
-        margin: 0px auto;
-    }
-}
 
-@media (min-width: 1024px) {
-    .main {
-        max-width: 1024px;
-    }
-    .header {
-        max-width: 1024px;
-    }
-}
-
-@media (min-width: 1160px) {
-    .main {
-        max-width: 1160px;
-    }
-    .header {
-        max-width: 1160px;
-    }
-}
 
 /* Menu */
 
@@ -124,6 +97,8 @@ body {
         display: grid;
         grid-template-columns: 200px auto 200px;
         padding: 10px 5px;
+        margin: 0px auto;
+        max-width: 1000px;
     }
     .header-menu ul {
         padding: 0px 100px;
@@ -138,6 +113,7 @@ body {
         display: grid;
         grid-template-columns: 250px auto 250px;
         padding: 10px 5px;
+        max-width: 1140px;
     }
     .header-botao a {
         padding: 20px 30px;
@@ -465,6 +441,17 @@ body {
         line-height: 60px;
     }
 }
+@media (min-width: 1024px) {
+    .section {
+        max-width: 1000px;
+        margin: 0px auto;
+    }
+}
+@media (min-width: 1140px) {
+    .section {
+        max-width: 1140px;
+    }
+}
 
 /* Serviços */
 
@@ -522,9 +509,10 @@ body {
 }
 
 .span-detalhe {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 100px;
     align-items: center;
-    margin-bottom: 80px;
+    margin: 80px auto;
 }
 
 .span-detalhe > p {
@@ -533,20 +521,18 @@ body {
     font-size: 16px;
     color: #583FBC;
     line-height: 24px;
-    text-align: center;
     letter-spacing: -0.02em;
     border: 10px solid #DBDEFA;
-    margin: 0px auto;
     background: #DBDEFA;
     padding-right: 50px;
+    margin: 0px auto;
 }
 
 .span-detalhe > img {
-    margin: 0px auto;
     border: 10px solid #583FBC;
     background: #583FBC;
     border-radius: 50%;
-    margin-left: -150px; 
+    margin-left: -80px;
 } 
 
 @media (min-width: 600px) {
@@ -563,17 +549,25 @@ body {
 
 @media (min-width: 1024px) {
     .article-geral {
-        grid-template-columns: 250px 250px 250px 250px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1000px;
+        margin: 0px auto;
     }
 }
+@media (min-width: 1160px) {
+    .article-geral {
+        max-width: 1140px;
+    }
+}
+
 
 /* Paciente */
 
 .paciente-img > img {
     max-width: 100%;
-    display: flex;
     margin: 0px auto;
     padding: 0px 10px;
+    display: block;
 }
 
 .paciente-paragrafo > h2 {
@@ -631,14 +625,12 @@ body {
 }
 
 @media (min-width: 768px) {
-    .paciente-img img {
-        display: flex;
-        margin: 0px auto;
-        margin-top: -110px;
-        position: relative;
-        margin-left: 180px;
-        padding: 100px 20px;
+    .paciente-img {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
+
+    
     .paciente-img::after {
         content: "";
         display: block;
@@ -646,29 +638,35 @@ body {
         height: 510px;
         background: #DBDEFA;
         border-radius: 32px;
-        margin-top: -540px; 
-        margin-left: 100px;  
+        margin-top: -445px; 
+        margin-left: 60px;  
    }
+
 }
 
 @media (min-width: 1024px) {
     .article-paciente {
         display: grid;
-        grid-template-columns: 1fr auto;
+        grid-template-columns: 450px auto;
         max-width: 1000px;
+        margin: 0px auto;
     }
     .paciente-img img {
-        margin-top: -20px;
+        margin-top: 20px;
         margin-left: 50px;
     }
     .paciente-img::after {
-        margin-top: -460px;
+        margin-top: -410px;
+        margin-left: 0px;
         width: 335px;
-        height: 425px;
+        height: 480px;
     }
     .paciente-paragrafo {
         padding: 0px 20px;
         margin-left: 60px;
+    }
+    .paciente-paragrafo h2 {
+        margin-left: 20px;
     }
     .paciente-paragrafo h1 {
         font-size: 48px;
@@ -676,10 +674,18 @@ body {
     }
     .paciente-paragrafo p {
         margin-bottom: 50px;
+        margin-left: 20px;
+        text-align: left;
     }
     .paciente-paragrafo a {
         padding: 20px 40px;
+        margin-left: 30px;
     }  
+}
+@media (min-width: 1160px) {
+    .article-paciente {
+        max-width: 1140px;   
+    }
 }
 
 
@@ -796,6 +802,7 @@ body {
         max-width: 1000px;
         padding-left: 100px;
         padding-right: 100px;
+        margin: 100px auto;
     }
     .experiencia-info h1 {
         margin-left: -20px;
@@ -912,31 +919,28 @@ body {
         margin-left: 15px;
     }
     .clinica-img img {
-        display: flex;
-        margin: 0px auto;
-        position: relative;
-        padding: 100px 20px;
-        margin-top: -550px;
+        margin-top: -450px;
+        margin-bottom: 100px;
+
     }
     .clinica-img::before {
         content: "";
         display: block;
-        width: 440px;
+        width: 400px;
         height: 510px;
         background: #FADBE2;
-        position: relative;
         border-radius: 32px;
-        margin: auto;
-        margin-right: 50px;      
+        margin-right: 50px; 
+        margin-left: 290px;     
    }
 }
 
 @media (min-width: 1024px) {
     .clinica-bg {
         display: grid;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: auto 450px;
         max-width: 1000px;
-        padding: 80px 10px;
+        margin: 0px auto;
     }
     .clinica-paragrafo {
         text-align: left;
@@ -950,13 +954,14 @@ body {
         margin-left: 20px;
     }
     .clinica-img img {
-        margin-top: -515px;
+        margin-top: -410px;
+        margin-left: -50px;
     }
     .clinica-img::before {
         margin-top: 10px;
-        margin-right: 60px;
-        width: 435px;
-        height: 460px;
+        margin-left: 100px;
+        width: 335px;
+        height: 480px;
     }
 }
 @media (min-width: 1160px) {
@@ -1071,11 +1076,13 @@ body {
 @media (min-width: 1024px) {
     .qualidade-bg {
         max-width: 1000px;
+        
     }
     .qualidade-paragrafo {
         display: grid;
-        grid-template-columns: 450px 450px;
+        grid-template-columns: 400px 400px;
         padding: 90px 50px;
+        margin: 0px auto;
     }
     .qualidade-primeira h1 {
         font-size: 48px;
@@ -1209,6 +1216,7 @@ body {
 @media (min-width: 1024px) {
     .blog-bg {
         max-width: 1000px;
+        margin: 0px auto;
     }
     .article-blog h1 {
         font-size: 48px;
@@ -1428,6 +1436,7 @@ body {
         max-width: 1000px;
         display: grid;
         grid-template-columns: 400px auto;
+        margin: 0px auto;
     }
     .local-mapa img {
         padding: 0px 10px;
@@ -1556,8 +1565,6 @@ body {
     border-radius: 8px;   
 }
 
-
-
 .footer-numero h2 {
     font-style: normal;
     font-weight: 700;
@@ -1578,8 +1585,6 @@ body {
     padding: 0px 20px;
 }
 
-
-
 .footer-relogio h2 {
     font-style: normal;
     font-weight: 700;
@@ -1599,8 +1604,6 @@ body {
     color: #FFFFFF;
     padding: 0px 20px; 
 }
-
-
 
 .footer-local h2 {
     font-style: normal;
@@ -1659,40 +1662,57 @@ body {
 
 @media (min-width: 1024px) {
     .footer-container {
+        max-width: 1024px;
         margin: 0px auto;
-        max-width: 1000px;
     }
-    .footer-informacao {
-        display: grid;
-        grid-template-columns:  300px 300px;
-    }
-    
     .footer-redes {
-        margin-left: 10px;
-        margin-top: 0px;
+        margin-top: -5px;
     }
     .footer-servicos {
-        margin-left: 60px;
+        margin-left: 50px;
         margin-top: 10px;
     }
-    .footer-info {
-        margin-right: 0px;
-          
+    .footer-info h1 {
+        margin-left: -45px;
     }
-    .footer-contato img {
-        margin-left: 30px;
+    .footer-informacao {
+        max-width: 980px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 50px;
+    }  
+    .footer-contato {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-img {
+        margin-left: -50px;
     }
     .footer-numero {
-        margin-left: -30px;
+        margin-left: -150px;
     }
     .footer-relogio {
-        margin-left: -30px;
+        margin-left: -150px;
     }
     .footer-local {
-        margin-left: -30px;
+        margin-left: -150px;
     }
-    .footer-rodape {
-        margin: 0px auto;
+}
+@media (min-width: 1160px) {
+    .footer-container {
+        max-width: 1160px;
+    }
+    .footer-informacao {
+        max-width: 1140px;
+    } 
+    .footer-info {
+        margin-left: 70px;
+    }
+    .footer-servicos {
+        margin-left: 125px;
+    }
+    .footer-redes {
+        margin-right: -10px;
     }
 }
 
