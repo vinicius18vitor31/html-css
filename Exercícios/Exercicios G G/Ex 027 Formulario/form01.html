@@ -8,9 +8,16 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form>
-        <p>Nome: in</p>
-        <p>Sobenome: </p>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="inome">Nome:</label>
+             <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobenome:</label>
+             <input type="text" name="sobrenome" id="isobrenome">
+        <p>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
