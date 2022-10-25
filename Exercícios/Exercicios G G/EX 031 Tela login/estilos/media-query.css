@@ -31,10 +31,18 @@
         background-position: center;
         width: 50vw;
         height: 100vh;
+        float: right;
     }
     section#login > div#formulario {  
         width: 50vw;
         height: 100vh;
+        float: left;
+    }
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
 
@@ -54,5 +62,11 @@
     section#login > div#formulario {  
         width: 50vw;
         height: 100vh;
+    }
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
