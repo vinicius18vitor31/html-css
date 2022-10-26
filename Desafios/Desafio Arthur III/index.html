@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História da Música</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header class="header-bg">
+        <div class="header-container">
+            <div class="header-sessao">
+                <div class="header-img">
+                    <img src="imagens-tela/header-logo.png" alt="Central da Música">
+                </div>
+                
+                <menu>
+                <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+                    <div id="lista">
+                        <div class="menu-lista">
+                            <ul>
+                                <li><a href="#">Guitarras</a></li>
+                                <li><a href="#">Acessórios</a></li>
+                                <li><a href="#">Armazenar</a></li>
+                                <li><a href="#">Lições</a></li>
+                                <li><a href="#">Reparos</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-img">
+                            <img src="imagens-tela/header-carrinho.png" alt="Carrinho de Compras">
+                            <img src="imagens-tela/header-icone.png" alt="Login">
+                        </div>
+                    </div>
+                </menu>
+            </div>
+            <h1>Realizando sonhos com amarras</h1>
+            <div class="header-paragrafo">
+                <h2>AULAS DE GUITARRA GRÁTIS!</h2>
+                <p>Compre qualquer violão acima de R$ 499,99 e receba uma aula de violão de uma hora grátis.</p>
+                <a class="ver-mais" href="#">SAIBA MAIS</a>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth <= 992) {
+                lista.style.display = 'block'
+            } else {
+                lista.style.display = 'none'
+            }
+        }
+
+
+        function clickMenu() {
+            if (lista.style.display == 'block') {
+                lista.style.display = 'none'
+            } else {
+                lista.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>

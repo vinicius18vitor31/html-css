@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-bg {
+        background: url(../imagens-tela/header-tablet.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 507px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header-bg {
+        background: url(../imagens-tela/header-desktop.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 507px;
+        position: relative;
+    }
+    .header-container {
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+}

@@ -7,6 +7,7 @@
     section#login {
         width: 80vw;
         display: flex;
+        
     }
     section#login > div#imagem {
         background-position: center;
@@ -16,6 +17,8 @@
     section#login > div#formulario {
         height: 100vh;
         width: 55vw;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
@@ -37,6 +40,8 @@
         width: 50vw;
         height: 100vh;
         float: left;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     div#formulario > h1 {
         font-size: 2em;
@@ -62,11 +67,14 @@
     section#login > div#formulario {  
         width: 50vw;
         height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     div#formulario > h1 {
         font-size: 2em;
     }
     div#formulario > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 }

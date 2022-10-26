@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+.menu-lista > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+menu ul li a {
+    text-decoration: none;   
+}
+
+.header-bg {
+    background: url(../imagens-tela/header-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 507px;
+    position: relative;
+}
+
+.header-sessao {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.header-img > img {
+    margin-top: 65px;
+    margin-left: 25px;
+}
+
+i#burger {
+    display: block;
+    color: white;
+    margin-top: 65px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center; 
+}
+
+i#burger:hover { 
+    color: white;
+}
+
+#lista {
+    display: none;
+    text-align: center; 
+}
+
+.menu-lista {
+    margin-top: 20px;
+    margin-left: -70px; 
+}
+
+.menu-lista ul li {
+    padding: 10px 0px;
+}
+
+.menu-lista ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #FCFCFC;
+    cursor: pointer;
+}
+
+.menu-img {
+    margin-left: -60px;
+}
+
+.menu-img img + img {
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.header-container > h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 115px;
+    padding: 0px 35px;
+}
+
+.header-paragrafo {
+    background: #AB0433 url(../imagens-tela/imagem-verm.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken, normal;
+    width: 328px;
+    height: 168px;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-top: 110px;
+}
+
+.header-paragrafo h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 18px 50px 4px 50px; 
+}
+
+.header-paragrafo p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 149%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 50px 16px 50px; 
+}
+
+.ver-mais {
+    background: #FF753A;
+    border-radius: 16px;
+    padding: 8px 12px;
+}
+.header-paragrafo > a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-align: center;
+}
