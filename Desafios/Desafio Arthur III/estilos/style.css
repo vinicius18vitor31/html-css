@@ -124,18 +124,23 @@ i#burger:hover {
     padding: 0px 50px 16px 50px; 
 }
 
-.ver-mais {
-    background: #FF753A;
-    border-radius: 16px;
-    padding: 8px 12px;
+.span-detalhe {
+    display: flex;
 }
 
-.header-detalhe > a {
+.section-detalhe {
+    border-radius: 16px;
+    padding: 8px 12px;  
+    
+}
+
+.span-detalhe > a {
+    background: #FF753A;
     text-decoration: none;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 130%;
     color: #FFFFFF;
-    text-align: center;
+    margin: 0px auto;
 }

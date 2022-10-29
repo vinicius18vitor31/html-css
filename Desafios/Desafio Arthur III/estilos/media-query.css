@@ -8,6 +8,24 @@
         height: 507px;
         position: relative;
     }
+    .header-container > h1 {
+        font-size: 50px;
+        margin-top: 50px;
+        text-align: left;
+        width: 500px;
+    }
+    .header-detalhe{
+        height: 200px;
+    }
+    .header-detalhe h2 {
+        font-size: 40px;
+    }
+    .header-detalhe p {
+        font-size: 20px;
+    }
+    .span-detalhe > a {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -20,6 +38,19 @@
     }
     .header-container {
         max-width: 1200px;
+        margin: 0px auto;
+    }
+    
+    .header-detalhe{
+        height: 250px;
+        margin-top: -90px;
+    }
+    .header-detalhe h2 {
+        font-size: 46px;
+    }
+    .header-detalhe p {
+        font-size: 24px;
+        width: 650px;
         margin: 0px auto;
     }
 }
