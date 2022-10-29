@@ -91,19 +91,20 @@ i#burger:hover {
     padding: 0px 35px;
 }
 
-.header-paragrafo {
+.header-detalhe {
     background: #AB0433 url(../imagens-tela/imagem-verm.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     background-blend-mode: darken, normal;
-    width: 328px;
+    width: 90vw;
     height: 168px;
     margin: 0px auto;
     border-radius: 10px;
-    margin-top: 110px;
+    margin-top: -110px;
+    position: relative;
 }
 
-.header-paragrafo h2 {
+.header-detalhe h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
@@ -113,7 +114,7 @@ i#burger:hover {
     padding: 18px 50px 4px 50px; 
 }
 
-.header-paragrafo p {
+.header-detalhe p {
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
@@ -128,7 +129,8 @@ i#burger:hover {
     border-radius: 16px;
     padding: 8px 12px;
 }
-.header-paragrafo > a {
+
+.header-detalhe > a {
     text-decoration: none;
     font-style: normal;
     font-weight: 600;
