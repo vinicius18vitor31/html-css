@@ -99,8 +99,9 @@ i#burger:hover {
     text-align: center;
     color: #FFFFFF;
     margin-top: 115px;
-    margin-left: -90px;
+    margin-left: 0px;
     padding: 0px 35px;
+    width: 260px;
 }
 
 .header-detalhe {
