@@ -11,8 +11,12 @@
     margin: 0px;
     padding: 0px;
 }
+menu ul li {
+    padding: 0px;  
+    margin: 0px; 
+}
 menu ul li a {
-    text-decoration: none;   
+    text-decoration: none; 
 }
 
 .header-bg {
@@ -52,13 +56,18 @@ i#burger:hover {
     text-align: center; 
 }
 
+.lista {
+    display: flex;
+    position: absolute;
+}
+
 .menu-lista {
-    margin-top: 20px;
-    margin-left: -70px; 
+    margin-top: -10px;
+    margin-left: -70px;
 }
 
 .menu-lista ul li {
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 .menu-lista ul li a {
@@ -72,15 +81,17 @@ i#burger:hover {
 }
 
 .menu-img {
+    margin-top: 20px;
     margin-left: -60px;
+    cursor: pointer;
 }
 
-.menu-img img + img {
+.menu-img a + a {
     margin-top: 20px;
     padding: 0px 10px;
 }
 
-.header-container > h1 {
+.header-h1 h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -88,6 +99,7 @@ i#burger:hover {
     text-align: center;
     color: #FFFFFF;
     margin-top: 115px;
+    margin-left: -90px;
     padding: 0px 35px;
 }
 
@@ -111,7 +123,9 @@ i#burger:hover {
     line-height: 120%;
     text-align: center;
     color: #FFFFFF;
-    padding: 18px 50px 4px 50px; 
+    max-width: 350px; 
+    margin: 0px auto;
+    padding: 10px;
 }
 
 .header-detalhe p {
@@ -121,7 +135,9 @@ i#burger:hover {
     line-height: 149%;
     text-align: center;
     color: #FFFFFF;
-    padding: 0px 50px 16px 50px; 
+    width: 250px;
+    margin: 0px auto;
+    margin-bottom: 24px;
 }
 
 .span-detalhe {

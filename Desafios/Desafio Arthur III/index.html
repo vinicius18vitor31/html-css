@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header class="header-bg">
         <div class="header-container">
             <div class="header-sessao">
@@ -25,7 +25,7 @@
                 
                 <menu>
                 <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
-                    <div id="lista">
+                    <div id="lista" class="lista">
                         <div class="menu-lista">
                             <ul>
                                 <li><a href="#">Guitarras</a></li>
@@ -36,13 +36,15 @@
                             </ul>
                         </div>
                         <div class="menu-img">
-                            <img src="imagens-tela/header-carrinho.png" alt="Carrinho de Compras">
-                            <img src="imagens-tela/header-icone.png" alt="Login">
+                            <a href="#"><img src="imagens-tela/header-carrinho.png" alt="Carrinho de Compras"></a>
+                            <a href="#"><img src="imagens-tela/header-icone.png" alt="Login"></a>
                         </div>
                     </div>
                 </menu>
             </div>
-            <h1>Realizando sonhos com amarras</h1>
+            <div class="header-h1">
+                <h1>Realizando sonhos com amarras</h1>
+            </div>
         </div>
     </header>
 
@@ -58,13 +60,12 @@
 
     <script>
         function mudouTamanho() {
-            if (window.innerWidth <= 992) {
-                lista.style.display = 'block'
+            if (window.innerWidth >= 1024) {
+                lista.style.display = 'flex'
             } else {
                 lista.style.display = 'none'
             }
         }
-
 
         function clickMenu() {
             if (lista.style.display == 'block') {
