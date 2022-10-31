@@ -6,6 +6,9 @@
     font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
 }
+body {
+    background-color: #ECECEC;
+}
 .menu-lista > ul {
     list-style-type: none;
     margin: 0px;
@@ -18,6 +21,9 @@ menu ul li {
 menu ul li a {
     text-decoration: none; 
 }
+
+
+/* Header */
 
 .header-bg {
     background: url(../imagens-tela/header-mobile.png) no-repeat;
@@ -109,7 +115,7 @@ i#burger:hover {
     background-position: center;
     background-size: cover;
     background-blend-mode: darken, normal;
-    width: 90vw;
+    width: 80vw;
     height: 168px;
     margin: 0px auto;
     border-radius: 10px;
@@ -147,8 +153,7 @@ i#burger:hover {
 
 .section-detalhe {
     border-radius: 16px;
-    padding: 8px 12px;  
-    
+    padding: 8px 12px;   
 }
 
 .span-detalhe > a {
@@ -161,3 +166,38 @@ i#burger:hover {
     color: #FFFFFF;
     margin: 0px auto;
 }
+
+/* Novos Produtos */
+
+.article-bg {
+    background-color: #FFFFFF;
+    margin-top: -60px;
+}
+
+.novos-repetir h1 {
+    padding-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #505050;
+}
+
+.novos-repetir h1::before {
+    content: '';
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #AB0433; 
+	margin: 4px auto;
+}
+
+.produtos-img {
+    max-width: 100%;
+    text-align: center;
+    margin-top: -20px;
+}
+    
