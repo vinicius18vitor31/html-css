@@ -31,6 +31,15 @@
     .span-detalhe > a {
         font-size: 14px;
     }
+    .novos-produtos {
+        width: 328px;
+        margin: 0px auto;
+        margin-bottom: 15px;
+    }
+    .produtos-bg {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -97,5 +106,19 @@
         width: 680px;
         margin: 0px auto;
         margin-bottom: 25px;
+    }
+    .novos-repetir h1 {
+        font-size: 40px;
+        line-height: 120%;
+    }
+    .produtos-bg {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0px 15px;
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    .retirada {
+        display: none;
     }
 }
