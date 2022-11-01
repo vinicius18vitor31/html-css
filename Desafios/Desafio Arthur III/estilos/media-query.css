@@ -40,6 +40,24 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .article-mobile {
+        display: none;
+    }
+    .article-tablet {
+        display: block;
+    }
+    .article-desktop {
+        display: none;
+    }
+    .footer-mobile-bg {
+        display: none;
+    }
+    .footer-tablet-bg {
+        display: block;
+    }
+    .footer-desktop-bg {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -77,7 +95,6 @@
         margin-left: -10px;
         padding: 5px 24px;
     }
-
     .menu-img {
         margin-top: 70px;
         margin-left: 10px;
@@ -111,6 +128,7 @@
         font-size: 40px;
         line-height: 120%;
     }
+    /* Novos Produtos */
     .produtos-bg {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -120,5 +138,92 @@
     }
     .retirada {
         display: none;
+    }
+    .desktop {
+        display: block;
+    }
+    .desktop1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .desktop2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .primeira-parte {
+        width: 500px;
+    }
+    .img-primeira img {
+        max-width: 100%;
+    }
+    .produtos-img img {
+        max-width: 100%;
+        padding: 10px;
+    }
+    .titulo { 
+        margin-top: -21px;
+        margin-bottom: 60px;
+        background-color: #EAEAEA;
+        border-radius: 10px;
+        width: 308px;
+        margin-left: 10px;
+    }
+    .subtitulo {
+        margin-top: -21px;
+        margin-bottom: 60px;
+        background-color: #252525;
+        border-radius: 10px;
+        width: 308px;
+        margin-left: 10px;
+    }
+    .section-desktop {
+        display: grid;
+        grid-template-columns: 250px 250px 400px;
+        max-width: 1200px;
+        margin: 0px auto;
+        text-align: left;
+        align-items: center;
+        padding-left: 80px;
+    }
+    .footer-tablet1 h1::before {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 3px;
+        background: #FFFFFF; 
+        margin: 4px auto;
+        margin-left: 0px;
+    }
+    .footer-logo {
+        text-align: right;
+    }
+    .footer-icones {
+        text-align: right; 
+    }
+    .subtitulo-desktop1 {
+        width: 481px; 
+    }
+    
+    /* Display None ou Block */
+
+    .article-mobile {
+        display: none;
+    }
+    .article-tablet {
+        display: none;
+    }
+    .article-desktop {
+        display: block;
+        background-color: #FFFFFF;
+    }
+
+    .footer-mobile-bg {
+        display: none;
+    }
+    .footer-tablet-bg {
+        display: none;
+    }
+    .footer-desktop-bg {
+        display: block;
     }
 }
