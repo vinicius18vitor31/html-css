@@ -255,4 +255,82 @@ i#burger:hover {
     margin-left: 16px;
     padding-bottom: 26px;
 }
-    
+
+/* Terceira Parte */
+
+.article-final{
+    background-color: #FFFFFF;
+}
+
+.parte-final h1 {
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+
+.titulo { 
+    margin-top: -10px;
+    margin-bottom: 60px;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+}
+
+.titulo-1 {
+    width: 328px;
+    margin: 0px auto;
+    border-radius: 10px; 
+}
+
+.titulo h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #252525;
+    padding-top: 32px;
+    padding-bottom: 4px;
+    margin-left: 32px;
+}
+
+.titulo p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #767676;
+    padding-bottom: 32px;
+    margin-left: 32px;
+}
+
+.subtitulo-2 {
+    width: 328px;
+    margin: 0px auto;
+    border-radius: 10px; 
+}
+
+.subtitulo {
+    margin-top: -10px;
+    margin-bottom: 60px;
+    background-color: #252525;
+    border-radius: 10px;
+}
+
+.subtitulo h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 4px;
+    margin-left: 32px;
+}
+
+.subtitulo p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #C4C4C4;
+    padding-bottom: 32px;
+    margin-left: 32px;
+}
