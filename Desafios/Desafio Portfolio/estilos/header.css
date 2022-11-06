@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.header-container {
+.header-bg {
     background: #74C69D;
 }
 
@@ -17,6 +17,10 @@
 
 .menu-img img {
     margin-left: 20px;
+}
+
+.img-desktop {
+    display: none;
 }
 
 i#burger {
@@ -49,12 +53,13 @@ i#burger:hover {
 
 .header-paragrafos {
     width: 90vw;
-    margin: 0px auto;
     padding-bottom: 40px;
+    margin: 0px auto;
 }
 
 .header-paragrafos img {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin: 0px auto;
 }
 
 .header-paragrafos h2 {
@@ -97,5 +102,6 @@ i#burger:hover {
     background-color: #FFFFFF;
     padding: 10px 48px;
 }
+
 
 

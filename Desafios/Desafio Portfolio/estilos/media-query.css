@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1024px) {
+    .header-container {
+        max-width: 1200px;
+        margin: 0px auto;
+        height: 125px;
+    }
+    i#burger {
+        display: none;
+    }
+    .header-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .img-mobile {
+        display: none;
+    }
+    .img-desktop {
+        display: block;
+        margin-top: 20px;
+    }
+    .menu-lista ul {
+        display: flex;
+        margin-left: 50px;
+    }
+    .menu-lista ul li {
+        padding: 0px 30px;
+        
+    }
+    .header-paragrafos {
+        display: none;
+    }
+    
+    
+}

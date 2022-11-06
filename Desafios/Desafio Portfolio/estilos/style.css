@@ -5,3 +5,6 @@
 
 /* Header */
 @import "./header.css";
+
+/* Meida Query */ 
+@import "./media-query.css";
