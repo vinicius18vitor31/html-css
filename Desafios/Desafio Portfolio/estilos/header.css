@@ -15,6 +15,16 @@
     margin: 0px auto;
 }
 
+.img-mobile {
+    display: block;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.img-desktop {
+    display: none;
+}
+
 .menu-img img {
     margin-left: 20px;
 }
@@ -42,19 +52,25 @@ i#burger:hover {
 
 .menu-lista {
     position: absolute;
-    margin-left: -20px;
+    margin-left: -45px;
     cursor: pointer;
 }
 
 .menu-lista ul li {
     color: #ffffff;
     padding-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
 }
 
 .header-paragrafos {
     width: 90vw;
+    padding-top: 40px;
     padding-bottom: 40px;
     margin: 0px auto;
+    display: grid;
 }
 
 .header-paragrafos img {
@@ -103,5 +119,23 @@ i#burger:hover {
     padding: 10px 48px;
 }
 
+.img-paragrafo-1 {
+    display: block;
+    max-width: 100%;
+    background-size: cover;
+}
 
+.img-paragrafo-2 {
+    display: none;
+}
 
+.paragrafos {
+    grid-area: paragrafos;
+    text-align: left;
+}
+.header-grid-1 {
+    grid-template-areas: 
+    "foto"
+    "paragrafos"
+    ;
+}
