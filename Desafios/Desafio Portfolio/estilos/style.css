@@ -9,5 +9,8 @@
 /* Conteudo */
 @import "./conteudo.css";
 
+/* Footer */
+@import "./footer.css";
+
 /* Meida Query */ 
 @import "./media-query.css";

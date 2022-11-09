@@ -4,7 +4,7 @@
     /* Header */
 
     .header-container {
-        max-width: 1315px;
+        max-width: 1200px;
         margin: 0px auto;
     }
     i#burger {
@@ -53,7 +53,7 @@
     }
     .header-paragrafos {
         max-width: 1200px;
-        grid-template-columns: 380px auto;
+        grid-template-columns: 380px 1fr;
         margin-top: -30px;
     }
     .header-paragrafos h2 {
@@ -67,6 +67,7 @@
         width: 400px;
     }
     /* Conteudo */
+
     .section1-container {
         max-width: 1200px;
         margin: 0px auto;
@@ -76,11 +77,109 @@
     }
     .section1-imagens {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         margin-bottom: 20px;
     }
     .section1-imagens img {
         padding: 15px;
+    }
+    
+    .section2-bg {
+        grid-template-columns:  1fr 500px;
+        max-width: 1200px;
+        margin: 0px auto;
+        padding-top: 40px;
+        align-items: center;
+    }
+    .section2-paragrafos h1 {
+        font-size: 40px;
+    }
+    .section2-desktop {
+        display: block;
+    }
+    .section2-mobile {
+        display: none;
+    }
+    .section2-imagem img {
+        background-size: cover;
+        max-width: 100%;
+        margin: 0px auto;
+        padding: 0px 20px;
+    }
+    .section2-paragrafos {
+        margin-left: 35px;
+    }
+
+    .section3-bg {
+        display: grid;
+        grid-template-columns: 470px 1fr;
+        max-width: 1200px;
+        margin: 0px auto;
+        padding-top: 40px;
+        align-items: center;
+    }
+    .section3-paragrafos h1 {
+        font-size: 40px;
+    }
+    .section3-desktop {
+        display: block;
+    }
+    .section3-mobile {
+        display: none;
+    }
+    .section3-imagem img {
+        background-size: cover;
+        max-width: 100%;
+        margin: 0px auto;
+    }
+    .section3-paragrafos {
+        margin-left: 35px;
+    }
+    .section3-grid {
+        grid-template-areas: "paragrafo3 imagem3";
+    }
+
+    .section4-paragrafos {
+        max-width: 500px;
+        margin: 0px auto;
+    }
+    .section4-paragrafos h1 {
+        font-size: 40px;
+    }
+    .section4-imagens {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    .section4-imagens img {
+        background-size: cover;
+        max-width: 100%;
+        margin: 0px auto;
+        padding-bottom: 40px;
+    }
+    
+    /* Footer */
+
+    .footer-bg {
+        margin-top: 50px;
+    }
+    .footer-container {
+        max-width: 1200px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        height: 130px;
+    }
+    .footer-img {
+        justify-content: left;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .footer-paragrafo {
+        margin-left: 100px;
+        margin-top: 40px;
     }
     
     
