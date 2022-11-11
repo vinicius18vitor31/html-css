@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.footer-bg {
+    background: #74c69d;
+}
+
+.footer-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-imagem {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    width: 335px;
+    margin: 0px auto;
+}
+
+.footer-paragrafo h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #FFFFFF;
+    text-align: center;
+    
+}

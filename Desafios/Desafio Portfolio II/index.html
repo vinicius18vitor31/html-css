@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio II</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+    </style>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2? family= Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700 & family= Work+Sans:wght@ 400;500;600;700 & display=trocar');
+    </style>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header class="header-bg">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="imagens/mobile-logo.png" alt="Logo Start">
+            </div>
+            <div class="header-menu">
+                <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+                <nav id="menuitens" class="menu-itens">
+                    <ul>
+                        <li>Home</li>
+                        <li>Portfolio</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="section-paragrafos">
+            <h2>works</h2>
+            <h1>Portfolio</h1>
+            <p>Lorem ipsum, dolor sit amet <br> consectetur <br> <br> adipisicing elit.</p>
+        </div>
+    </section>
+    <section class="section-mobile">
+        <div class="mobile-imagem">
+            <img src="imagens/mobile1.png" alt="Lnding Page Design">
+            <img src="imagens/mobile2.png" alt="Web Design">
+            <img src="imagens/mobile3.png" alt="Rocket Your Business">
+            <img src="imagens/mobile4.png" alt="Shopping">
+            <img src="imagens/mobile5.png" alt="Geometric Shapes">
+            <img src="imagens/mobile6.png" alt="Trick Or Treat">
+            <img src="imagens/mobile7.png" alt="Halloween">
+            <img src="imagens/mobile8.png" alt="Virtual Reality Experience">
+        </div>
+    </section>
+
+    <section class="section-desktop">
+        <div class="desktop-imagem">
+            <img src="imagens/desktop1.png" alt="Lnding Page Design">
+            <img src="imagens/desktop2.png" alt="Web Design">
+            <img src="imagens/desktop3.png" alt="Rocket Your Business">
+            <img src="imagens/desktop4.png" alt="Shopping">
+            <img src="imagens/desktop5.png" alt="Geometric Shapes">
+            <img src="imagens/desktop6.png" alt="Trick Or Treat">
+            <img src="imagens/desktop7.png" alt="Halloween">
+            <img src="imagens/desktop8.png" alt="Virtual Reality Experience">
+        </div>
+    </section>
+
+    <div class="botao">
+        <p>Learn More</p>
+    </div>
+
+    <footer class="footer-bg">
+        <div class="footer-container">
+            <div class="footer-imagem">
+                <img src="imagens/footer-face.png" alt="Logo Facebook">
+                <img src="imagens/footer-insta.png" alt="Logo Instagran">
+                <img src="imagens/footer-twiter.png" alt="Logo Twiter">
+                <img src="imagens/footer-p.png" alt="Logo P">
+                <img src="imagens/footer-musica.png" alt="Logo Música">
+                <img src="imagens/footer-whats.png" alt="Logo Whatsapp">
+                <img src="imagens/footer-you.png" alt="Logo Youtube">
+            </div>
+            <div class="footer-paragrafo">
+                <h3>© Start, 2022. All rights reserved.</h3>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 1024) {
+                menuitens.style.display = 'grid'
+            } else {
+                menuitens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (menuitens.style.display == 'block') {
+                menuitens.style.display = 'none'
+            } else {
+                menuitens.style.display = 'block'
+            }
+        }
+    </script>
+
+</body>
+</html>
