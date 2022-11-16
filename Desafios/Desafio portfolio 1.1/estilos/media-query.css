@@ -1,0 +1,20 @@
+@charset "UTF-8"; 
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .marcas-imagens {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 55px;
+    }
+    .marcas-imagens img {
+        padding: 20px 40px;
+    }
+    .section-perfis {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}
