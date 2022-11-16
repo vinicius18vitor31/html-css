@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+.header-bg {
+    background: #74C69D;
+}
+
+.logo-menu {
+    display: grid;
+    grid-template-columns: 1fr 70px;
+    align-items: flex-start;
+}
+
+.header-logo {
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+i#burger {
+    display: block;
+    color: white;
+    cursor: pointer;
+    margin-top: 26px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+i#burger:hover { 
+    color: white;
+}
+
+#itens {
+    display: none;
+    cursor: pointer; 
+    position: absolute;
+}
+
+.header-itens ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.header-imagem img {
+    margin: 0px auto;
+    padding-top: 45px;
+}
+
+.header-paragrafo h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header-paragrafo h1 {
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.header-paragrafo p {
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.header-botao {
+    border: 5px solid #FFFFFF;
+    background: #FFFFFF;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.header-botao p {
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}

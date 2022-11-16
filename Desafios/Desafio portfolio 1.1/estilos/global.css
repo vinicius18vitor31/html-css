@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 125%;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+}
+
+.conteudo-botao {
+    background: #212529;
+    border: 5px solid #212529;
+    border-radius: 5px;
+    max-width: 120px; 
+    margin: 0px auto; 
+}
+
+.conteudo-botao p {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.botao-conteudo {
+    background: #212529;
+    border: 5px solid #212529;
+    border-radius: 5px;
+    max-width: 120px; 
+    margin-left: 20px;
+}
+
+.botao-conteudo p {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.footer-bg {
+    background-color: #74C69D;
+    margin-top: 40px;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    max-width: 350px;
+    margin: 0px auto;
+}
+
+.footer-paragrafo p {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 30px;
+}

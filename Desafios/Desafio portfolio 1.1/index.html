@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 1.1</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+    </style>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2? family= Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700 & family= Work+Sans:wght@ 400;500;600;700 & display=trocar');
+    </style>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div class="header-bg">
+            <div class="header-container">
+                <div class="logo-menu">
+                    <div class="header-logo">
+                        <img src="imagens/mobile-logo.png" alt="">
+                    </div>
+                    <div class="header-menu">
+                        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+                        <nav id="itens" class="header-itens">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Portifolio</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div>
+                    <div class="header-imagem">
+                        <img src="imagens/mobile-header.png" alt="Grupo de pessoas">
+                    </div>
+                    <div class="header-paragrafo">
+                        <h3>WELCOME</h3>
+                        <h1>Lorem ipsum dolor sit amet consectetur </h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                    </div>
+                    <div class="header-botao">
+                        <p>Explore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="marcas-container">
+            <div class="marcas-paragrafo">
+                <h2>partners</h2>
+                <h1>Lorem Ipsum Dolor</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur <br> <br>
+                    adipisicing elit.</p>
+            </div>
+            <div class="marcas-imagens">
+                <img src="imagens/google.png" alt="Logo Google">
+                <img src="imagens/microsoft.png" alt=" Logo Microsoft">
+                <img src="imagens/airbnb.png" alt="Logo airbnb">
+                <img src="imagens/facebook.png" alt="Logo Facebook">
+                <img src="imagens/spotify.png" alt="Logo spotify">
+            </div>
+            <div class="conteudo-botao">
+                <p>Learn More</p>
+            </div>
+        </div>
+        <div class="conteudo-container">
+            <div class="imagens-paragrafos">
+                <div class="conteudo-imagem">
+                    <img src="imagens/mulheres-msg.png" alt="Grupo de Mulheres">
+                </div>
+                <div class="conteudo-paragrafo">
+                    <h1>Lorem ipsum dolor sit amet consectetur </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                    <div class="botao-conteudo">
+                        <p>Learn More</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imagens-paragrafos">
+                <div class="conteudo-imagem">
+                    <img src="imagens/homem-sentado.png" alt="Homem Sentado Lendo">
+                </div>
+                <div class="conteudo-paragrafo">
+                    <h1>Lorem ipsum dolor sit amet consectetur </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                    <div class="botao-conteudo">
+                        <p>Learn More</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-paragrafos">
+                <h2>team</h2>
+                <h1>Our Talents</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur <br><br>
+                    adipisicing elit.</p>
+            </div>
+            <div class="section-perfis">
+                <div>
+                    <img src="imagens/peg.png" alt="Peg Legge">
+                </div>
+                <div>
+                    <img src="imagens/richard.png" alt="Richard Guerra">
+                </div>
+                <div>
+                    <img src="imagens/alexandra.png" alt="Alexandra Stolz">
+                </div>
+                <div>
+                    <img src="imagens/janet.png" alt="Janet Bray">
+                </div>
+            </div>
+            <div class="conteudo-botao">
+                <p>Learn More</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bg">
+            <div class="footer-container">
+                <div class="footer-img">
+                    <img src="imagens/footer-face.png" alt="Logo Facebook">
+                    <img src="imagens/footer-insta.png" alt="Logo Instagram">
+                    <img src="imagens/footer-twiter.png" alt="Logo Twiter">
+                    <img src="imagens/footer-p.png" alt="Logo P">
+                    <img src="imagens/footer-musica.png" alt="Logo Musica">
+                    <img src="imagens/footer-whats.png" alt="Logo Whatsapp">
+                    <img src="imagens/footer-you.png" alt="Logo Youtube">
+                </div>
+                <div class="footer-paragrafo">
+                    <p>© Start, 2022. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 1024) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
