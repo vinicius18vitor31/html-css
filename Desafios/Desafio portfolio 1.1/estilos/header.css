@@ -42,9 +42,28 @@ i#burger:hover {
     color: #FFFFFF;
 }
 
+.header-grid-1 {
+    grid-template-areas: 
+    "foto"
+    "paragrafo"
+    ;
+}
+
+.header-imagem {
+    grid-area: foto;
+}
+
+.header-paragrafo {
+    grid-area: paragrafo;
+}
+
 .header-imagem img {
     margin: 0px auto;
     padding-top: 45px;
+}
+
+.header-desktop {
+    display: none;
 }
 
 .header-paragrafo h3 {
@@ -78,9 +97,10 @@ i#burger:hover {
     border-radius: 5px;
     margin-left: 20px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
-.header-botao p {
+.header-botao > a {
     font-size: 20px;
     text-align: center;
     color: #000000;

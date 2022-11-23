@@ -69,3 +69,11 @@
     margin: 0px auto;
     padding: 15px 0px;
 }
+
+.mulheres-desktop {
+    display: none;
+}
+
+.homem-desktop {
+    display: none;
+}
