@@ -24,6 +24,9 @@
     i#burger {
         display: none;
     }
+    #menuitens {
+        display: block;
+    }
     .header-container {
         max-width: 1200px;
         margin: 0px auto;
