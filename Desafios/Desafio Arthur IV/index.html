@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+
+    <link rel="stylesheet" href="./estilos/style.css">
+
+    <script>document.documentElement.classList.add("js");</script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family= Montserrat: wght @200;300;400;500;600;700;800 & display=swap');
+    </style>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family= Sora: wght @200;300;400;500;600;700;800 & display=swap');
+    </style>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="imagens/logo-mobile.png" alt="Logo Barber">
+            </div>
+            <div class="container-menu">
+                <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+                <div id="itens" class="header-menu perguntas">
+                    <dl>
+                        <div class="menu-icone">
+                            <dt><button aria-controls="pergunta1" aria-expanded="true">Outros Cursos</button></dt>
+                            <dd id="pergunta1" class="ativa">
+                                <div class="menu-perguntas">
+                                    <div class="perguntas-header perguntas-after">
+                                        <div class="menu-imagem">
+                                            <img src="imagens/logo-menu-1.png" alt="Logo Barber">
+                                        </div>
+                                        <div class="menu-perguntas">
+                                            <a href="#">Barberday Start</a>
+                                            <p>É o curso ideal para quem tem pouca ou nenhuma experiência na barbearia.</p>
+                                        </div>
+                                    </div>
+                                    <div class="perguntas-header">
+                                        <div class="menu-imagem">
+                                            <img src="imagens/logo-menu-2.png" alt="Logo Barber">
+                                        </div>
+                                        <div class="menu-perguntas">
+                                            <a href="#">Barberday Business online</a>
+                                            <p>É um treinamento para donos de barbearias, ou pessoas que tem vontade de abrir uma barbearia.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </dd>
+                    
+                        </div>
+                    </dl>
+                    <div class="header-conta">
+                        <a href="#">Já tenho conta</a>
+                    </div>
+                    <div class="header-participar">
+                        <a href="#">Quero participar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 1024) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+
+    <script src="js/plugins/simple-anime.js"></script>
+    <script src="js/plugins/"></script>
+</body>
+</html>

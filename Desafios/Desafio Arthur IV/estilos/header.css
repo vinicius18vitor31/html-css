@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+header {
+    background: #0D151D;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    align-items: flex-start;
+    
+}
+
+.header-logo {
+    padding: 20px 0px;
+    margin-left: 15px;
+}
+
+i#burger {
+    display: block;
+    color: #12A698;
+    cursor: pointer;
+    text-align: right;
+    margin-top: 45px;
+    padding-right: 15px;
+}
+
+i#burger:hover { 
+    color: #12A698;
+}
+
+#itens {
+    display: none;
+    cursor: pointer; 
+    margin-left: -70px;
+    margin-top: 80px;
+}
+
+dt {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+button {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #CEFBE7;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+dd {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    max-width: 300px;
+    margin: 0px auto;
+}
+
+.perguntas-header {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.perguntas-after::after{
+    content: "";
+    display: inline-block;
+    width: 280px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.menu-imagem {
+    margin-top: 34px;
+    margin-left: 30px;
+}
+
+.menu-perguntas > a {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.menu-perguntas > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    mix-blend-mode: normal;
+    max-width: 160px;
+}
+
+.header-conta {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.header-conta a {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #CEFBE7;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.header-participar {
+    
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.header-participar a {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
