@@ -7,16 +7,7 @@
     <title>Barbearia</title>
 
     <link rel="stylesheet" href="./estilos/style.css">
-
-    <script>document.documentElement.classList.add("js");</script>
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family= Montserrat: wght @200;300;400;500;600;700;800 & display=swap');
-    </style>
     
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family= Sora: wght @200;300;400;500;600;700;800 & display=swap');
-    </style>
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
@@ -31,10 +22,11 @@
                 <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
                 <div id="itens" class="header-menu perguntas">
                     <dl>
-                        <div class="menu-icone">
-                            <dt><button aria-controls="pergunta1" aria-expanded="true">Outros Cursos</button></dt>
-                            <dd id="pergunta1" class="ativa">
-                                <div class="menu-perguntas">
+                        <dt class="button-header"><button id="action-btn" aria-expanded="true" onclick="clickButton()">Outros Cursos</button></dt>
+
+                        <div id="menu" class="menu-icone">  
+                            <dd>
+                                <div class="menu-perguntas perguntas">
                                     <div class="perguntas-header perguntas-after">
                                         <div class="menu-imagem">
                                             <img src="imagens/logo-menu-1.png" alt="Logo Barber">
@@ -55,7 +47,7 @@
                                     </div>
                                 </div>
                             </dd>
-                    
+
                         </div>
                     </dl>
                     <div class="header-conta">
@@ -68,6 +60,19 @@
             </div>
         </div>
     </header>
+
+    <article>
+        <div class="article1-container">
+            <div class="article1-foto">
+                <img src="imagens/Elias-mobile.png" alt="Foto de Elias">
+            </div>
+            <div class="article1-paragrafos">
+                <h1>Participe do maior e mais bem avaliado treinamento <span> para barbeiros da América.</span></h1>
+                <h2>No Barber Day Online você tem acesso a mais de 120 aulas com educadores de renome internacional, aprende o que há de mais moderno no mercado e ainda pode conquistar até 5 certificados!</h2>
+                <a href="#">Quero participar</a>
+            </div>
+        </div>
+    </article>
 
 
     <script>
@@ -84,6 +89,24 @@
                 itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
+            }
+        }
+    </script>
+    
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 1024) {
+                menu.style.display = 'flex'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+
+        function clickButton(){
+            if(menu.style.display == 'none') {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
             }
         }
     </script>

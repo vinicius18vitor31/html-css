@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.article1-foto {
+    margin-top: -90px;
+    background: url(../imagens/detalhes-foto1.png) no-repeat top 110px right 50px;
+    max-width: 350px;
+    margin: 0px auto;
+    height: 350px;
+}
+
+.article1-foto img {
+    margin-top: -80px;
+    border-radius: 10px;
+}
+
+.article1-paragrafos h1 {
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.article1-paragrafos h1 > span {
+    font-weight: 400;
+}
