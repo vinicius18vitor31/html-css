@@ -59,7 +59,7 @@ dt {
 }
 
 button {
-    font-family: 'Sora';
+    font-family: 'Sora' sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -101,7 +101,7 @@ dd {
 }
 
 .menu-perguntas > a {
-    font-family: 'Sora';
+    font-family: 'Sora' sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -112,7 +112,7 @@ dd {
 }
 
 .menu-perguntas > p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -128,7 +128,7 @@ dd {
 }
 
 .header-conta a {
-    font-family: 'Sora';
+    font-family: 'Sora' sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -147,7 +147,7 @@ dd {
 }
 
 .header-participar a {
-    font-family: 'Sora';
+    font-family: 'Sora' sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

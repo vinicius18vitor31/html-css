@@ -13,6 +13,13 @@
     border-radius: 10px;
 }
 
+.article1-paragrafos {
+    background: url(../imagens/detalhes-foto.png) no-repeat top 135px right 0px;
+    max-width: 350px;
+    height: 424px;
+    margin: 0px auto;
+}
+
 .article1-paragrafos h1 {
     font-family: 'Sora', sans-serif;
     font-style: normal;
@@ -20,8 +27,25 @@
     font-size: 32px;
     line-height: 150%;
     color: #FFFFFF;
+    text-align: left;
+    max-width: 325px;
+    margin: 0px auto;
+    padding-top: 70px; 
 }
 
 .article1-paragrafos h1 > span {
+    font-weight: 500;
+}
+
+.article1-paragrafos h2 {
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
     font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    max-width: 325px;
+    margin: 0px auto;
+    padding-top: 20px;
 }

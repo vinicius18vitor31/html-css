@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+
 body {
     margin: 0px;
     background: #0D151D;
+    font-family: 'Sora', 'Montserrat', sans-serif;
+    
 }
 
 ul {
