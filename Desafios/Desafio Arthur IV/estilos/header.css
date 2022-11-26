@@ -127,7 +127,7 @@ dd {
     margin-bottom: 40px;
 }
 
-.header-conta a {
+.header-conta > a {
     font-family: 'Sora' sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -146,7 +146,7 @@ dd {
     margin-left: 20px;
 }
 
-.header-participar a {
+.header-participar > a {
     font-family: 'Sora' sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -161,7 +161,7 @@ dd {
     border-radius: 5px;
 }
 
-.header-participar a::after {
+.header-participar > a::after {
     content: "";
     display: inline-block;
     width: 22px;
