@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./estilos/style.css">
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family= Sora: wght @200;300;400;500;600;700;800 & display=swap');
@@ -25,10 +26,19 @@
                 <img src="imagens/logo-mobile.png" alt="Logo Barber">
             </div>
             <div class="container-menu">
-                <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+                <input type="checkbox" id="menu-hamburguer">
+                <label for="menu-hamburguer">
+                    <i id="burger" class="material-icons hamburduer" onclick="clickMenu()">menu</i>
+                </label>
                 <div id="itens" class="header-menu perguntas">
                     <dl>
-                        <dt class="button-header"><button id="action-btn" aria-expanded="true" onclick="clickButton()">Outros Cursos</button></dt>
+                        <dt class="button-header">
+                            <input type="checkbox" id="menu-expandir">
+                            <label for="menu-expandir" class="expandir-perguntas">
+                                <p class="expandir-cursos" id="action-btn" onclick="clickButton()">Outros Cursos</p>
+                                <span id="expandir" class="material-icons expandir-menu">expand_more</span>
+                            </label>
+                        </dt>
 
                         <div id="menu" class="menu-icone">  
                             <dd>

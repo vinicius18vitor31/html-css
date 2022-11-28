@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 70px 1fr;
     align-items: flex-start;
+    position: relative;
 }
 
 .header-logo {
@@ -16,16 +17,28 @@
 }
 
 i#burger {
-    display: block;
     color: #12A698;
     cursor: pointer;
     text-align: right;
-    margin-top: 45px;
-    padding-right: 15px;
+    margin-top: 35px;
+    margin-right: 10px;
+    padding: 10px;
+    display: block;
+    transition: .7s ease-in-out;
+    position: absolute;
+    right: 0px;
 }
 
 i#burger:hover { 
     color: #12A698;
+}
+
+input {
+    display: none;
+}
+
+input:checked ~ label .hamburduer {
+    transform: rotate(180deg);  
 }
 
 #itens {
@@ -33,10 +46,11 @@ i#burger:hover {
     cursor: pointer; 
     right: 0px;
     margin-right: 20px;
-    margin-top: 30px;
-    background: #0D151D;
+    margin-top: 110px;
+    background: #0d151d;
     position: absolute;
     border-radius: 4px;
+    width: 340px;
 }
 
 #menu {
@@ -49,26 +63,28 @@ dt {
     margin-left: 20px;
 }
 
-.button-header button::after {
-    content: "";
-    display: inline-block;
-    width: 25px;
-    height: 17px;
-    margin-left: 20px;
-    background: url(../imagens/seta-abrir.png) no-repeat;
+.expandir-perguntas {
+    display: flex;
+    position: relative;
 }
 
-button {
+.expandir-cursos {
     font-family: 'Sora' sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    text-align: center;
     color: #CEFBE7;
-    cursor: pointer;
-    border: none;
-    background: none;
+    cursor: pointer;  
+}
+
+span#expandir {
+    color: #CEFBE7;
+    margin-left: 10px;  
+}
+
+input:checked ~ label .expandir-menu {
+    transform: rotate(180deg);  
 }
 
 dd {
