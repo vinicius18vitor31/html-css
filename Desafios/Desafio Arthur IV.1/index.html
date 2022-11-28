@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia</title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
     <link rel="stylesheet" href="estilos/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
 </head>
@@ -17,42 +21,66 @@
                 <img src="imagens/logo-mobile.png" alt="Logo Barber">
             </div>
             <div class="header-menu">
-                <nav>
-                    <ul id="ul-principal">
-                        <li>
-                            <a href="#">Outros Cursos</a>
-                            <ul>
-                                <li>
-                                    <div>
-                                        <img src="imagens/logo-menu-1.png" alt="Logo Barber">
-                                    </div>
-                                    <div>
-                                        <a href="#">Barberday Start</a>
-                                        <p>É o curso ideal para quem tem pouca ou nenhuma experiência na barbearia.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div>
-                                        <img src="imagens/logo-menu-2.png" alt="Logo Barber">
-                                    </div>
-                                    <div>
-                                        <a href="#">Barberday Business online</a>
-                                        <p>É um treinamento para donos de barbearias, ou pessoas que tem vontade de abrir uma barbearia.</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Já tenho conta</a>
-                        </li>
-                        <li>
-                            <a href="#">Quero participar</a>
-                        </li>
-                        
-                    </ul>
-                </nav>
+                <i id="burger" class="material-icons hamburduer" onclick="clickMenu()">menu</i>
+                <div class="nav-container">
+                    <nav>
+                        <ul id="itens" class="ul-principal">
+                            <li class="li-p">
+                                <a href="#">Outros Cursos</a>
+                                <span id="expandir" class="material-icons
+                                expandir-menu">expand_more</span>
+                                <ul class="ul-secundaria">
+                                    <li>
+                                        <div>
+                                            <img src="imagens/logo-menu-1.png" alt="Logo Barber">
+                                        </div>
+                                        <div class="container-detalhe">
+                                            <a href="#">Barberday Start</a>
+                                            <p class="header-detalhes">É o curso ideal para quem tem pouca ou nenhuma experiência na barbearia.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <img src="imagens/logo-menu-2.png" alt="Logo Barber">
+                                        </div>
+                                        <div class="container-detalhe">
+                                            <a href="#">Barberday Business online</a>
+                                            <p class="header-detalhes">É um treinamento para donos de barbearias, ou pessoas que tem vontade de abrir uma barbearia.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="li-p">
+                                <a href="#">Já tenho conta</a>
+                            </li>
+                            <li class="li-p">
+                                <a class="header-botao" href="#">Quero participar</a>
+                            </li>
+                    
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
+
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 1024) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
