@@ -10,7 +10,10 @@
 .header-logo {
     padding: 20px 0px;
     margin-left: 15px;
-    position: absolute;
+}
+
+.header-menu {
+    position: relative;
 }
 
 i#burger {
@@ -23,6 +26,7 @@ i#burger {
     display: block;
     position: absolute;
     right: 0px;
+    transition: .7s ease-in-out;
 }
 
 i#burger:hover { 
@@ -37,12 +41,25 @@ i#burger:hover {
     position: absolute; 
     right: 0px;
     border-radius: 5px;
-    background-color: red;
+}
+
+#menu {
+    display: none;
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
+
+input:checked ~ label .hamburguer {
+    transform: rotate(180deg);  
 }
 
 .li-p {
     line-height: 50px;
     margin-left: 20px;
+    position: relative;
 }
 
 .li-p > a {
@@ -55,6 +72,30 @@ i#burger:hover {
     color: #CEFBE7;
     display: inline-block;
     padding: 20px 10px;
+}
+
+.li-p > a:hover {
+    color: #12A698;
+}
+
+.expandir-perguntas {
+    display: flex;
+    position: relative;
+}
+
+.expandir-perguntas > a {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #CEFBE7;
+    padding: 20px 10px;
+}
+
+input:checked ~ label .expandir-menu {
+    transform: rotate(180deg);  
 }
 
 span#expandir {

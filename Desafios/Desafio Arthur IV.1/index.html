@@ -21,14 +21,21 @@
                 <img src="imagens/logo-mobile.png" alt="Logo Barber">
             </div>
             <div class="header-menu">
-                <i id="burger" class="material-icons hamburduer" onclick="clickMenu()">menu</i>
+                <input type="checkbox" id="menu-hamburguer">
+                <label for="menu-hamburguer">
+                    <i id="burger" class="material-icons hamburguer" onclick="clickMenu()">menu</i>
+                </label>
                 <div class="nav-container">
                     <nav>
                         <ul id="itens" class="ul-principal">
                             <li class="li-p">
-                                <a href="#">Outros Cursos</a>
-                                <span id="expandir" class="material-icons
-                                expandir-menu">expand_more</span>
+                                <div>
+                                    <input type="checkbox" id="menu-expandir">
+                                    <label for="menu-expandir" class="expandir-perguntas">
+                                        <a href="#" class="expandir-curso" id="action-btn" onclick="clickButton()">Outros Cursos</a>
+                                        <span id="expandir" class="material-icons expandir-menu">expand_more</span>
+                                    </label>
+                                </div>
                                 <div id="menu">
                                     <ul class="ul-secundaria">
                                         <li>

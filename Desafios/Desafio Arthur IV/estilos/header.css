@@ -37,7 +37,7 @@ input {
     display: none;
 }
 
-input:checked ~ label .hamburduer {
+input:checked ~ label .hamburguer {
     transform: rotate(180deg);  
 }
 
