@@ -21,54 +21,56 @@
                 <img src="imagens/logo-mobile.png" alt="Logo Barber">
             </div>
             <div class="header-menu">
-                <input type="checkbox" id="menu-hamburguer">
-                <label for="menu-hamburguer">
-                    <i id="burger" class="material-icons hamburguer" onclick="clickMenu()">menu</i>
-                </label>
-                <div class="nav-container">
-                    <nav>
-                        <ul id="itens" class="ul-principal">
-                            <li class="li-p">
-                                <div>
-                                    <input type="checkbox" id="menu-expandir">
-                                    <label for="menu-expandir" class="expandir-perguntas">
+                <nav>
+                    <div>
+                        <input type="checkbox" id="burger">
+                        <label for="burger">
+                            <div class="menu-hamburguer">
+                                <span class="hamburguer" onclick="clickMenu()"></span>
+                            </div>
+                        </label>
+                        <div id="itens" class="menu-bg">
+                            <ul class="ul-principal">
+                                <li class="li-p">
+                                    <input type="checkbox" id="abrir">
+                                    <label for="abrir" class="expandir-perguntas">
                                         <a href="#" class="expandir-curso" id="action-btn" onclick="clickButton()">Outros Cursos</a>
                                         <span id="expandir" class="material-icons expandir-menu">expand_more</span>
                                     </label>
-                                </div>
-                                <div id="menu">
-                                    <ul class="ul-secundaria">
-                                        <li>
-                                            <div>
-                                                <img src="imagens/logo-menu-1.png" alt="Logo Barber">
-                                            </div>
-                                            <div class="container-detalhe">
-                                                <a href="#">Barberday Start</a>
-                                                <p class="header-detalhes">É o curso ideal para quem tem pouca ou nenhuma experiência na barbearia.</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <img src="imagens/logo-menu-2.png" alt="Logo Barber">
-                                            </div>
-                                            <div class="container-detalhe">
-                                                <a href="#">Barberday Business online</a>
-                                                <p class="header-detalhes">É um treinamento para donos de barbearias, ou pessoas que tem vontade de abrir uma barbearia.</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="li-p">
-                                <a href="#">Já tenho conta</a>
-                            </li>
-                            <li class="li-p">
-                                <a class="header-botao" href="#">Quero participar</a>
-                            </li>
-                    
-                        </ul>
-                    </nav>
-                </div>
+                                    <div id="menu">
+                                        <ul class="ul-secundaria">
+                                            <li class="menu-cursos curso-after">
+                                                <div class="menu-img">
+                                                    <img src="imagens/logo-menu-1.png" alt="Logo Barber">
+                                                </div>
+                                                <div class="container-detalhe">
+                                                    <a href="#">Barberday Start</a>
+                                                    <p class="header-detalhes">É o curso ideal para quem tem <br> pouca ou nenhuma experiência <br> na barbearia.</p>
+                                                </div>
+                                            </li>
+                                            <li class="menu-cursos">
+                                                <div>
+                                                    <img src="imagens/logo-menu-2.png" alt="Logo Barber">
+                                                </div>
+                                                <div class="container-detalhe">
+                                                    <a href="#">Barberday Business online</a>
+                                                    <p class="header-detalhes">É um treinamento para donos de <br> barbearias, ou pessoas que tem <br> vontade de abrir uma barbearia.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="li-p">
+                                    <a href="#">Já tenho conta</a>
+                                </li>
+                                <li class="li-p p-menu">
+                                    <a class="header-botao" href="#">Quero participar</a>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>

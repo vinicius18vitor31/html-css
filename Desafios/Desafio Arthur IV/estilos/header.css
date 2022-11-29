@@ -75,7 +75,8 @@ dt {
     font-size: 16px;
     line-height: 20px;
     color: #CEFBE7;
-    cursor: pointer;  
+    cursor: pointer; 
+    display: block; 
 }
 
 span#expandir {
