@@ -28,7 +28,7 @@
     width: 30px;
     height: 2px;
     position: absolute;
-    transition: .5s ease-in-out;
+    transition: .10s ease-in;
     margin-top: 27px;
     margin-left: 15px;
 }
@@ -41,7 +41,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    transition: .5s ease-in-out;
+    transition: .10s ease-in;
 }
 
 .hamburguer::before {
@@ -70,7 +70,11 @@ input:checked ~ label .hamburguer::after {
     bottom: 0px;
 }
 
-.menu-bg {
+.itens {
+    display: none;
+}
+
+.menu {
     display: none;
 }
 
@@ -116,26 +120,25 @@ input:checked ~ label .hamburguer::after {
 
 .ul-secundaria {
     margin-top: 20px;
-    padding-left: 25px;
     margin-right: 20px;
-    width: 250px;
+    width: 300px;
     border: 2px solid #ffffff10;
 }
 
 .curso-after::after {
     content: "";
     display: block;
-    width: 200px;
+    width: 280px;
     height: 2px;
     background: #ffffff10;
-    margin-left: 20px;
+    margin-left: -10px;
 }
 
 .menu-cursos {
     display: grid;
     grid-template-columns: 80px 1fr;
     padding-top: 55px;
-    width: 240px;
+    width: 260px;
     margin: 0px auto;
 }
 

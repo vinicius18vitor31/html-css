@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="js.js"></script>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
     <link rel="stylesheet" href="estilos/style.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
 </head>
-<body onresize="mudouTamanho()">
+<body>
     <header>
         <div class="header-container">
             <div class="header-logo">
@@ -26,18 +29,18 @@
                         <input type="checkbox" id="burger">
                         <label for="burger">
                             <div class="menu-hamburguer">
-                                <span class="hamburguer" onclick="clickMenu()"></span>
+                                <span class="hamburguer"></span>
                             </div>
                         </label>
-                        <div id="itens" class="menu-bg">
+                        <div class="itens">
                             <ul class="ul-principal">
                                 <li class="li-p">
                                     <input type="checkbox" id="abrir">
                                     <label for="abrir" class="expandir-perguntas">
-                                        <a href="#" class="expandir-curso" id="action-btn" onclick="clickButton()">Outros Cursos</a>
+                                        <a href="#" class="expandir-curso" id="action-btn">Outros Cursos</a>
                                         <span id="expandir" class="material-icons expandir-menu">expand_more</span>
                                     </label>
-                                    <div id="menu">
+                                    <div class="menu">
                                         <ul class="ul-secundaria">
                                             <li class="menu-cursos curso-after">
                                                 <div class="menu-img">
@@ -76,41 +79,7 @@
     </header>
 
 
-    <script>
-        function mudouTamanho() {
-            if (window.innerWidth >= 1024) {
-                itens.style.display = 'flex'
-            } else {
-                itens.style.display = 'none'
-            }
-        }
-
-        function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
-        }
-    </script>
-
-    <script>
-        function mudouTamanho() {
-           if (window.innerWidth >= 1024) {
-               menu.style.display = 'flex'
-            } else {
-               menu.style.display = 'none'
-            }
-        }
-
-        function clickButton(){
-            if(menu.style.display == 'none') {
-               menu.style.display = 'block'
-            } else {
-               menu.style.display = 'none'
-            }
-        }
-    </script>
+    
 
 </body>
 </html>
