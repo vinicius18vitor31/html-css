@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
+.section1-container {
+    max-width: 350px;
+    margin: 0px auto;
+}
 
-.article1-foto {
+
+.section1-foto {
     margin-top: -90px;
     background: url(../imagens/detalhes-foto1.png) no-repeat top 110px right 50px;
     max-width: 350px;
@@ -9,18 +14,18 @@
     height: 350px;
 }
 
-.article1-foto img {
+.section1-foto img {
     margin-top: -80px;
     border-radius: 10px;
 }
 
-.article1-paragrafos {
+.section1-paragrafos {
     background: url(../imagens/detalhes-foto.png) no-repeat top 135px right 0px;
     max-width: 350px;
     margin: 0px auto;
 }
 
-.article1-paragrafos h1 {
+.section1-paragrafos h1 {
     font-family: 'Sora', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -33,11 +38,11 @@
     padding-top: 70px; 
 }
 
-.article1-paragrafos h1 > span {
+.section1-paragrafos h1 > span {
     font-weight: 500;
 }
 
-.article1-paragrafos h2 {
+.section1-paragrafos h2 {
     font-family: 'Montserrat' sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -50,19 +55,19 @@
     padding-top: 20px;
 }
 
-.article1-linear {
+.section1-linear {
     background-image: linear-gradient(to right bottom, #08374B38 60%, #03161f 0%);
     padding-top: 10px;
     height: 210px;
 }
 
-.article1-botao {
+.section1-botao {
     align-items: center;
     margin-top: 40px;
     margin-left: 0px;   
 }
 
-.article1-botao::after {
+.section1-botao::after {
     content: "";
     display: inline-block;
     margin-top: 155px;
@@ -71,7 +76,7 @@
     background-image: linear-gradient(to right, rgba(3, 22, 31, 0.096) 55%, #15BEAE 45%);
 }
 
-.article1-botao > a {
+.section1-botao > a {
     font-family: 'Sora' sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -88,7 +93,7 @@
     box-shadow: -1px 10px 40px -2px #12A698;
 }
 
-.article1-botao > a::after {
+.section1-botao > a::after {
     content: "";
     display: inline-block;
     background: url(../imagens/seta.png) no-repeat;
@@ -97,14 +102,83 @@
     margin-left: 20px;
 }
 
-/* Article 2 */
+/* SEction 2 */
 
-.article2-container {
+.section2-container {
     padding-top: 195px;
+    max-width: 370px;
+    margin: 0px auto;
 }
 
-.article2-img {
+.section2-img {
     margin-top: -288px;
     margin-left: 20px;
     margin-bottom: 90px;
+}
+
+.section2-paragrafos {
+    width: 300px;
+    
+}
+
+.section2-paragrafos h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.section2-paragrafos h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+.section2-paragrafos::after {
+    content: "";
+    display: block;
+    width: 340px;
+    height: 2px;
+    background: #ffffff10;
+    margin-left: 15px;
+}
+
+.section2-info1 {
+    margin-top: 50px;
+}
+
+.section2-paragrafo > h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.section2-paragrafo > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 20px;
+    margin-bottom: 55px;
 }
