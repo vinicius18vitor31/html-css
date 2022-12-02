@@ -182,3 +182,98 @@
     margin-left: 20px;
     margin-bottom: 55px;
 }
+
+.section2-depoimento h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.section2-foto {
+    display: flex;
+    margin-top: 100px;
+    overflow: scroll hidden;
+}
+
+.section2-foto img {
+    width: 250px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.degrade::after {
+    content: "Degradê com 3 tons";
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+/* Section 3 */
+
+.section3-paragrafos {
+    max-width: 350px;
+    margin: 0px auto;
+}
+
+.section3-paragrafos h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 16px;
+}
+
+.section3-paragrafos h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    mix-blend-mode: normal;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section3-paragrafos h3 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.section3-paragrafos h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    mix-blend-mode: normal;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+
