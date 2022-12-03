@@ -307,6 +307,54 @@
     padding-bottom: 100px;
 }
 
+/* Section 4 */
+
+.section4-containet {
+    max-width: 350px;
+    margin: 0px auto;
+}
+
+.section4-paragrafos > h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.section4-paragrafos > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+.form {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.span-detalhe1 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.span-detalhe1 img {
+    margin-top: -5px;
+}
+
 
 
 
