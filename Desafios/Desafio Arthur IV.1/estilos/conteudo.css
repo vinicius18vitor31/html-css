@@ -517,11 +517,16 @@
 
 /* Section 7 */
 
+.section7-detalhe {
+    background: url(../imagens/section7-detalhe.png) no-repeat;
+}
+
 .section7-container {
     border: 2px solid #ffffff10;
     max-width: 350px;
     margin: 0px auto;
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .section7-parte1::after {
