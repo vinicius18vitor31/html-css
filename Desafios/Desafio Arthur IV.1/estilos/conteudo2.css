@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+.section8-titulo h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 100px;
+    margin-bottom: 8px;
+}
+
+.section8-titulo h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.section8-parte1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    max-width: 330px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.section8-parte1 h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #CEFBE7;
+    border: 1px solid #12A098;
+    background: #12A098;
+    left: 29%;
+    border-radius: 100px;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: -30px;
+    position: absolute;
+}
+
+.section8-parte1 h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.section8-parte1 h1::after {
+    content: "";
+    display: block;
+    max-width: 700px;
+    height: 2px;
+    background: #ffffff10;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 40px;
+}
+
+.section8-parte1 p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+margin-bottom: 18px;
+margin-left: 70px;
+
+}
+
+.section8-parte1 p::before {
+    content: "";
+    display: block;
+    background: url(../imagens/section8-detalhe1.png) no-repeat;
+    height: 17px;
+    width: 22px;
+    margin-left: -35px;
+    padding-top: 10px;
+    position: absolute;
+}
+
+
+.section8-botao1 {
+    position: relative;
+    padding: 15px 10px;
+    margin-right: 0px;
+    background: #12A698;
+    border-radius: 10px;
+    color: #FFFFFF;
+    max-width: 270px;
+    margin-left: 20px;
+    text-align: center;
+    box-shadow: -1px 10px 40px -2px #12a698;
+}
+
+.section8-botao1 > a::after {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 17px;
+    margin-left: 190px;
+    background: url(../imagens/seta.png) no-repeat;
+    position: absolute;
+
+    animation-name: setaDireita;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes setaDireita {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 10px;
+    }
+}
+
+.section8-parte1 h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #CEFBE7;
+    margin-top: 20px;
+    padding-bottom: 32px;
+}
+

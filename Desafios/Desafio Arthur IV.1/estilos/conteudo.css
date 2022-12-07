@@ -276,6 +276,7 @@
     margin-bottom: 70px;
     max-width: 240px;
     margin-left: 40px;
+    box-shadow: -1px 10px 40px -2px #12a698;
 }
 
 .section3-botao > a::after {
@@ -518,12 +519,13 @@
 /* Section 7 */
 
 .section7-detalhe {
+    padding-top: 10px;
     background: url(../imagens/section7-detalhe.png) no-repeat;
 }
 
 .section7-container {
     border: 2px solid #ffffff10;
-    max-width: 350px;
+    max-width: 330px;
     margin: 0px auto;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -536,6 +538,10 @@
     height: 2px;
     background: #ffffff10;
     text-align: center;
+}
+
+.section7-botao {
+    margin-left: 20px;
 }
 
 .section7-parte1 h2 {
