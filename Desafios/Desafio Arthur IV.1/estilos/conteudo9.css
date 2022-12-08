@@ -1,5 +1,58 @@
 @charset "UTF-8";
 
-.conteudo9-bg {
-    
+.section9-bg {
+    background: linear-gradient(95.32deg, #04435B -12.16%, #12A698 90.06%);
+    margin-top: 250px;
+}
+
+.section9-container {
+    position: relative;
+    max-width: 350px;
+    margin: 0px auto;
+}
+
+.section9-container::before {
+    content: "";
+    display: block;
+    background: url(../imagens/section9-detalhe.png) no-repeat;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: -40px;
+    left: 40%;
+}
+
+.section9-paragrafo h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 57px;
+    padding-bottom: 4px;
+}
+
+.section9-paragrafo h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 40px;
+}
+
+.section9-img {
+    display: flex;
+    align-items: center;
+    overflow: scroll hidden;
+    padding-bottom: 64px;
+}
+
+.section9-img img {
+    margin-left: 2px;
+    height: 127px;
 }
