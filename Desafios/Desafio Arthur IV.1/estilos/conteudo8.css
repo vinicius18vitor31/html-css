@@ -39,6 +39,7 @@
     max-width: 330px;
     margin: 0px auto;
     position: relative;
+    margin-top: 50px;
 }
 
 .section8-parte1 h2 {
@@ -90,7 +91,6 @@ line-height: 20px;
 color: #FFFFFF;
 margin-bottom: 18px;
 margin-left: 70px;
-
 }
 
 .section8-parte1 p::before {
@@ -103,7 +103,6 @@ margin-left: 70px;
     padding-top: 10px;
     position: absolute;
 }
-
 
 .section8-botao1 {
     position: relative;
@@ -249,12 +248,11 @@ margin-left: 70px;
 
 .section8-parte3 {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    background: #0D151D;
     border-radius: 10px;
     max-width: 330px;
+    margin: 0px auto;
     margin-top: -70px;
-    position: absolute;
-    left: 2%;
+    position: relative;
 }
 
 .section8-img1 {
@@ -262,11 +260,8 @@ margin-left: 70px;
     margin-left: -14px;
 }
 
-.section8-img2 {
-position: absolute;
-right: 0px;
-margin-right: -10px;
-bottom: -465px;
+.section8-img2 img {
+    margin-left: 230px;
 }
 
 .section8-parte3 h2 {
