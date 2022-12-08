@@ -253,10 +253,19 @@ margin-left: 70px;
     border-radius: 10px;
     max-width: 330px;
     margin: 0px auto;
-    margin-top: -70px;
+    margin-top: -150px;
     position: absolute;
     left: 3px;
     height: 400px;
+}
+
+.section8-img1::after {
+    content: "";
+    display: block;
+    background: url(../imagens/section8-detalhe2.png) no-repeat;
+    bottom: 0px;
+    width: 18px;
+    height: 80px;
 }
 
 .section8-img1 {
@@ -267,7 +276,7 @@ margin-left: 70px;
 .section8-img2 img {
     position: absolute;
     right: 0px;
-    bottom: -120px;
+    bottom: -40px;
     margin-right: -10px;
 }
 

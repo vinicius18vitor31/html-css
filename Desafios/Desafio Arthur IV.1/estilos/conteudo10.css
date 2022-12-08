@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+.section10-parte1 > h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 96px;
+    margin-bottom: 8px;
+}
+
+.section10-parte1 > h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.section10-parte2 {
+    max-width: 330px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.section10-parte2 > h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.section10-curso {
+    background: #0D151D;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+
+.section10-curso h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9FAFA;
+    background: #12A698;
+    padding: 16px 130px 16px 16px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.section10-curso h1::before {
+    content: "";
+    display: block;
+    background: url(../imagens/section10-parte2.1.png) no-repeat;
+    height: 17px;
+    width: 22px;
+    margin-left: 265px;
+    padding-top: 10px;
+    position: absolute;
+}
+
+.section10-curso h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 32px 20px 20px 20px;
+}
+
+.section10-curso p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 20px 20px 24px 52px;
+    
+}
+
+.section10-curso p::before {
+    content: "";
+    display: block;
+    background: url(../imagens/section8-detalhe1.png) no-repeat;
+    height: 17px;
+    width: 22px;
+    margin-left: -35px;
+    padding-top: 10px;
+    position: absolute;
+}
+
+.section10-parte2 > h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 16px 45px 16px 16px;
+    margin: 16px 0px;
+}
+
+.section10-parte2 > h2::before {
+    content: "";
+    display: block;
+    background: url(../imagens/section10-parte2.png) no-repeat;
+    height: 25px;
+    width: 30px;
+    margin-left: 265px;
+    margin-top: -3px;
+    position: absolute;
+}
