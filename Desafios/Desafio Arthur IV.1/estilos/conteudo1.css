@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+.section1-container {
+    margin: 0px auto;
+}
+
+.section1-foto {
+    margin-top: -90px;
+    background: url(../imagens/detalhes-foto1.png) no-repeat top 110px right 50px;
+    margin: 0px auto;
+    height: 350px;
+    max-width: 350px;
+}
+
+.section1-foto img {
+    margin-top: -80px;
+    border-radius: 10px;
+}
+
+.section1-paragrafos {
+    background: url(../imagens/detalhes-foto.png) no-repeat top 135px right 0px;
+    margin: 0px auto;
+    max-width: 350px;
+}
+
+.section1-paragrafos h1 {
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: left;
+    max-width: 325px;
+    margin: 0px auto;
+    padding-top: 70px; 
+}
+
+.section1-paragrafos h1 > span {
+    font-weight: 500;
+}
+
+.section1-paragrafos h2 {
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    max-width: 325px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.section1-linear {
+    background-image: linear-gradient(to right bottom, #08374B38 60%, #03161f 0%);
+    padding-top: 10px;
+    height: 210px;
+}
+
+.section1-botao {
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px; 
+}
+
+.section1-botao::after {
+    content: "";
+    display: inline-block;
+    margin-top: 155px;
+    width: 100%;
+    height: 6px;
+    background-image: linear-gradient(to right, rgba(3, 22, 31, 0.096) 55%, #15BEAE 100%);
+}
+
+.section1-botao > a {
+    font-family: 'Sora' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #12A698;
+    background-color: #12A698;
+    padding: 10px 48px 16px 10px;
+    border-radius: 4px;
+    margin-left: 10%;
+    box-shadow: -1px 10px 40px -2px #12A698;
+}
+
+.section1-botao > a::after {
+    content: "";
+    display: inline-block;
+    background: url(../imagens/seta.png) no-repeat;
+    width: 22px;
+    height: 17px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
