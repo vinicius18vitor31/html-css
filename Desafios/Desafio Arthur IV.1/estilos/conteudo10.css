@@ -111,7 +111,7 @@
     color: #FFFFFF;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    padding: 16px 45px 16px 16px;
+    padding: 20px 45px 16px 16px;
     margin: 16px 0px;
 }
 
@@ -122,6 +122,109 @@
     height: 25px;
     width: 30px;
     margin-left: 265px;
+    margin-top: -3px;
+    position: absolute;
+}
+
+.section10-assinatura {
+    max-width: 330px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.section10-assinatura h1 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-bottom: 24px;
+}
+
+.section10-assinatura p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px 45px 16px 16px;
+    margin: 16px 0px;
+}
+
+.section10-assinatura > p::before {
+    content: "";
+    display: block;
+    background: url(../imagens/section10-parte2.png) no-repeat;
+    height: 25px;
+    width: 30px;
+    margin-left: 265px;
+    margin-top: -3px;
+    position: absolute;
+}
+
+.section10-parte3 {
+    max-width: 330px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.section10-parte3-paragrafo h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 72px;
+    margin-bottom: 8px;
+}
+
+.section10-parte3-paragrafo h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.section10-parte3-detalhe {
+    max-width: 220px;
+    margin: 0px auto;
+    position: relative;
+    background: #25CC63;
+    padding: 16px 32px 16px 24px;
+    border-radius: 100px 30px 8px 100px;
+}
+
+.section10-parte3-detalhe a {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.section10-parte3-detalhe a::before {
+    content: "";
+    display: block;
+    background: url(../imagens/section10-parte3-detalhe.png) no-repeat;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
     margin-top: -3px;
     position: absolute;
 }

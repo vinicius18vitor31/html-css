@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.footer-logo {
+    margin-bottom: 40px;
+}
+
+.footer-logo img {
+    margin: 0px auto;
+}
+
+.footer-detalhes {
+    display: flex;
+    width: 270px;
+    margin: 0px auto;
+}
+
+.footer-detalhes img {
+    padding: 0px 24px;
+    margin-bottom: 55px;
+}
+
+.footer-paragrafos {
+    text-align: center;
+}
+
+.footer-paragrafos a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #CEFBE7;
+}
+
+.footer-paragrafos p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #F9FAFA;
+    margin-top: 32px;
+    margin-bottom: 56px;
+}
