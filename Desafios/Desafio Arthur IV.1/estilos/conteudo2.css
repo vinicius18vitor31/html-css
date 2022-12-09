@@ -21,13 +21,31 @@
     max-width: 800px;
     margin-left: 20px;
     margin-bottom: 140px;
+    position: relative;
+    scroll-snap-type: x mandatory;
+}
+
+.section2-opiniao::before {
+    content: "";
+    display: block;
+    background: url(../imagens/seta-voltar.png) no-repeat;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+    left: 0px;
 }
 
 .section2-opiniao img {
-   padding-left: 10px;
+   padding-left: 40px;
    height: 127px;
    max-width: 100%;
    background-size: cover;
+   scroll-snap-align: start;
+}
+
+.section2-opiniao img + img {
+    padding-left: 10px;
 }
 
 .section2-paragrafos {
@@ -114,13 +132,32 @@
 
 .section2-foto {
     display: flex;
-    margin-top: 100px;
+    padding-top: 100px;
     overflow: scroll hidden;
     position: relative;
+    max-width: 600px; 
+    scroll-snap-type: x mandatory;
+    margin: 0px auto;
+}
+
+.section2-foto::before {
+    content: "";
+    display: block;
+    background: url(../imagens/seta-voltar.png) no-repeat;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 260px;
+    left: 8%;
 }
 
 .section2-foto > img {
-    width: 250px;
-    height: 250px;
-    padding-left: 10px;
+    width: 260px;
+    height: 345px;
+    padding-left: 60px;
+    scroll-snap-align: start;
+}
+
+.section2-foto img + img {
+    padding-left: 20px;
 }
