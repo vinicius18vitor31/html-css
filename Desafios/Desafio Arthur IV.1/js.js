@@ -18,3 +18,7 @@ $(document).ready(function() {
            event.stopPropagation();
        });
    });
+
+   /* ANIMAÇÃO */
+
+  
