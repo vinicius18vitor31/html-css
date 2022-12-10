@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Section1 */
+    .section1-paragrafos {
+        max-width: 992px;
+    }
+    .section1-paragrafos h1 {
+        max-width: none;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section1-paragrafos h2 {
+        max-width: none;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    /* Section2 */
+    
+}

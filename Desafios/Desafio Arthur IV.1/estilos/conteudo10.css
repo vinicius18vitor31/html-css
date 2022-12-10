@@ -25,8 +25,9 @@
 }
 
 .section10-parte2 {
-    max-width: 330px;
+    max-width: 500px;
     margin: 0px auto;
+    padding: 0px 40px;
     position: relative;
 }
 
@@ -65,8 +66,8 @@
     background: url(../imagens/section10-parte2.1.png) no-repeat;
     height: 17px;
     width: 22px;
-    margin-left: 265px;
-    padding-top: 10px;
+    margin-left: 80%;
+    margin-top: -5px;
     position: absolute;
 }
 
@@ -102,7 +103,13 @@
     position: absolute;
 }
 
-.section10-parte2 > h2 {
+.section10-parte2-2 {
+    max-width: 500px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.section10-parte2-2 > h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -115,19 +122,19 @@
     margin: 16px 0px;
 }
 
-.section10-parte2 > h2::before {
+.section10-parte2-2 h2::before {
     content: "";
     display: block;
     background: url(../imagens/section10-parte2.png) no-repeat;
     height: 25px;
     width: 30px;
-    margin-left: 265px;
+    margin-left: 80%;
     margin-top: -3px;
     position: absolute;
 }
 
 .section10-assinatura {
-    max-width: 330px;
+    max-width: 600px;
     margin: 0px auto;
     position: relative;
 }
@@ -141,6 +148,7 @@
     color: #FFFFFF;
     margin-top: 70px;
     margin-bottom: 24px;
+    margin-left: 40px;
 }
 
 .section10-assinatura p {
@@ -153,7 +161,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 20px 45px 16px 16px;
-    margin: 16px 0px;
+    margin: 16px 40px;
 }
 
 .section10-assinatura > p::before {
@@ -162,8 +170,8 @@
     background: url(../imagens/section10-parte2.png) no-repeat;
     height: 25px;
     width: 30px;
-    margin-left: 265px;
-    margin-top: -3px;
+    margin-left: 65%;
+    margin-top: -10px;
     position: absolute;
 }
 

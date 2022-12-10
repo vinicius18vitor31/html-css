@@ -52,14 +52,21 @@
 }
 
 .section4-containerfoto {
+    margin: 0px auto;
+}
+
+.section4-foto {
+    display: flex;
+    padding-top: 100px;
+    overflow: scroll hidden;
+    scroll-snap-type: x mandatory;
     border: 2px solid rgba(255, 255, 255, 0.02);
     background: rgba(255, 255, 255, 0.02);
     padding-bottom: 100px;
-    margin-left: -20px;
     position: relative;
 }
 
-.section4-containerfoto::before {
+.section4-foto::before {
     content: "";
     display: block;
     background: url(../imagens/seta-voltar.png) no-repeat;
@@ -68,20 +75,10 @@
     width: 50px;
     height: 50px;
     top: 220px;
-    left: 8%;
-}
-
-.section4-foto {
-    display: flex;
-    padding-top: 100px;
-    overflow: scroll hidden;
-    max-width: 400px; 
-    scroll-snap-type: x mandatory;
-    margin: 0px auto;
+    left: 6px;
 }
 
 .section4-foto img {
-    width: 300%;
     object-fit: cover;
     padding-left: 40px;
     scroll-snap-align: start;

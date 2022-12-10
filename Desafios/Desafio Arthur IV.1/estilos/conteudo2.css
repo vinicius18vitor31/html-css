@@ -5,7 +5,6 @@
 .section2-container {
     padding-top: 195px;
     margin: 0px auto;
-    max-width: 600px;
 }
 
 .section2-img {
@@ -86,11 +85,12 @@
 .section2-info1::before {
     content: "";
     display: block;
-    max-width: 700px;
     height: 2px;
     background: #ffffff10;
-    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
     margin-bottom: 40px;
+    
 }
 
 .section2-paragrafo > h1 {
@@ -115,6 +115,11 @@
     color: rgba(255, 255, 255, 0.6);
     margin-left: 20px;
     margin-bottom: 55px;
+}
+
+.section2-depoimento {
+    max-width: 600px;
+    margin: 0px auto;
 }
 
 .section2-depoimento h1 {
