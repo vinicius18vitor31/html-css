@@ -25,7 +25,7 @@
 }
 
 .section10-parte2 {
-    max-width: 500px;
+    width: 350px;
     margin: 0px auto;
     padding: 0px 40px;
     position: relative;
@@ -104,7 +104,7 @@
 }
 
 .section10-parte2-2 {
-    max-width: 500px;
+    max-width: 350px;
     margin: 0px auto;
     position: relative;
 }
@@ -134,9 +134,10 @@
 }
 
 .section10-assinatura {
-    max-width: 600px;
+    width: 350px;
     margin: 0px auto;
     position: relative;
+    padding: 0px 40px;
 }
 
 .section10-assinatura h1 {
@@ -148,7 +149,7 @@
     color: #FFFFFF;
     margin-top: 70px;
     margin-bottom: 24px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .section10-assinatura p {
@@ -161,7 +162,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 20px 45px 16px 16px;
-    margin: 16px 40px;
+    margin: 32px 0px 20px 0px;
 }
 
 .section10-assinatura > p::before {
@@ -170,8 +171,8 @@
     background: url(../imagens/section10-parte2.png) no-repeat;
     height: 25px;
     width: 30px;
-    margin-left: 65%;
-    margin-top: -10px;
+    margin-left: 285px;
+    margin-top: -5px;
     position: absolute;
 }
 
