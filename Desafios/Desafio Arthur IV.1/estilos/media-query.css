@@ -2,7 +2,45 @@
 
 @media screen and (min-width: 1024px) {
     /*Header*/
-
+    .header-container {
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    .header-sessao {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+    }
+    .menu-hamburguer {
+        display: none;
+    }
+    .hamburguer {
+        display: none;
+    }
+    
+    .itens {
+        display: block;
+    }
+    .ul-principal {
+        margin-top: 0px;
+        margin-left: 450px;
+        width: 550px;
+        height: 10px;
+        border-radius: 5px;
+        display: flex;
+        background: none;
+    }
+    
+    .ul-secundaria {
+        margin-top: 10px;
+        margin-left: -180px;
+        width: 300px;
+        border: 2px solid #ffffff10;
+        border-radius: 10px;
+    }
+    .expandir-curso {
+        margin-left: -100px;
+        margin-right: 160px;
+    }
    
 
 }
