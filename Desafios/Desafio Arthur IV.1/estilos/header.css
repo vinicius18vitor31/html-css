@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.header-desktop {
+    display: none;
+}
+
 .header-sessao {
     display: grid;
     grid-template-columns: 100px 1fr;
@@ -83,7 +87,7 @@ input:checked ~ label .hamburguer::after {
     margin-top: 130px;
     left: 0px;
     width: 90vw;
-    height: 100vh;
+    height: 125vh;
     background: #494e52f7;
     border-radius: 5px;
 }

@@ -17,6 +17,10 @@
     border-radius: 10px;
 }
 
+.elias-desktop {
+    display: none;
+}
+
 .section1-paragrafos {
     background: url(../imagens/detalhes-foto.png) no-repeat top 135px right 0px;
     margin: 0px auto;
