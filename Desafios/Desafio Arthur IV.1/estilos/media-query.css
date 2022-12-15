@@ -75,36 +75,15 @@
         margin-left: 170px;
     }
     /*Conteudo1 */
-    .elias-desktop {
-        display: block;
-    }
-    .elias-mobile {
+    .conteudo1-mobile {
         display: none;
     }
+    .conteudo1-desktop {
+        display: block;
+    }
     .section1-container {
-        max-width: 1200px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 0px auto;
     }
-    .section1-grid-1 {
-        grid-template-areas: "paragrafo imagem";
-    }
-    .paragrafo {
-        grid-area: paragrafo;
-    }
-    .imagem {
-        grid-area: imagem;
-    }
-    .section1-foto {
-        background: url(../imagens/detalhes-foto3.png) no-repeat right 50px bottom 50px;
-        margin: 0px auto;
-        max-width: 100%;
-    }
-    .section1-foto img {
-        height: 130vh;
-        width: 100vw;
-        margin-top: -130px;
-        margin-left: 10px;
-    }
+   
 }

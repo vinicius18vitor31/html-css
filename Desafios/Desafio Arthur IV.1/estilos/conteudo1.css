@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.conteudo1-desktop {
+    display: none;
+}
+
 .section1-container {
     margin: 0px auto;
 }
@@ -15,10 +19,6 @@
 .section1-foto img {
     margin-top: -80px;
     border-radius: 10px;
-}
-
-.elias-desktop {
-    display: none;
 }
 
 .section1-paragrafos {
