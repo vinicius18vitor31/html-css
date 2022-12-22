@@ -57,7 +57,8 @@
         width: 300px;
         border: 2px solid #ffffff10;
         border-radius: 10px;
-        background: #494e52f7;
+        background: #fff;
+        position: absolute;
     }
     .p-segunda {
         margin-top: 30px;
@@ -75,15 +76,50 @@
         margin-left: 170px;
     }
     /*Conteudo1 */
-    .conteudo1-mobile {
+
+    .section1-container {
+        max-width: 1200px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 560px 550px;
+        position: relative;
+    }
+    .section1-grid-1 {
+        grid-template-areas: "paragrafo imagem";
+    }
+    .imagem {
+        grid-area: imagem;
+    }
+    .paragrafo {
+        grid-area: paragrafo;
+    }
+    .section1-foto {
+        background: url(../imagens/detalhe-elias-desktop.png) no-repeat top 160px right 50px;
+        margin-top: -10px;
+        max-width: 100%;
+        position: absolute;
+        height: 500px;
+    }
+    .elias-mobile {
         display: none;
     }
-    .conteudo1-desktop {
+    .elias-desktop {
         display: block;
+        height: 740px;
     }
-    .section1-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .section1-linear  {
+        background-image: none;
+        padding-top: 10px;
+        height: 210px;
     }
+    .section1-paragrafos h1 {
+        font-size: 40px;
+    }
+    .section1-paragrafos {
+        background: none;
+    }
+    
+
+
    
 }

@@ -8,6 +8,10 @@
     margin: 0px auto;
 }
 
+.elias-desktop {
+    display: none;
+}
+
 .section1-foto {
     margin-top: -90px;
     background: url(../imagens/detalhes-foto1.png) no-repeat top 110px right 50px;
@@ -97,7 +101,14 @@
     background: url(../imagens/seta.png) no-repeat;
     width: 22px;
     height: 17px;
-    margin-left: 20px;
+    margin-left: 200px;
+    position: absolute;
+
+    animation-name: setaDireita;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 
